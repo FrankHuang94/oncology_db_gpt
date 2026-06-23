@@ -1,101 +1,70 @@
 # OncoAtlas — 癌症治疗前沿知识数据库
 
-OncoAtlas 是一个可直接部署到 GitHub Pages 的静态中文知识数据库，面向具有生命科学本科基础的研究生和研发从业者，系统整理现代肿瘤治疗的机制、临床证据、药企管线、FDA监管和市场格局。
+OncoAtlas 是一个 Markdown 版癌症治疗前沿知识数据库，面向具有生命科学本科基础的研究生、药物研发从业者和转化医学学习者。内容覆盖肿瘤生物学、免疫治疗、CAR-T、ADC、双抗、小分子靶向、蛋白降解、基因/细胞治疗、放射性药物、TME、新抗原疫苗、药企管线、FDA监管和市场格局。
 
-内容版本：2025.Q2；部分FDA与市场章节包含2025全年回顾补充，并在正文中标注口径。
+## 阅读入口
 
-## 已交付内容
+- [总目录 Index](index.md)
+- [药物数据库 JSON](data/drugs.json)
+- [管线数据库 JSON](data/pipelines.json)
+- [公司数据库 JSON](data/companies.json)
+- [FDA 批准记录 JSON](data/fda_approvals.json)
+- [术语缩写表 JSON](data/terms.json)
 
-- 主页：`index.html`
-- 章节：`chapters/00-overview.html` 至 `chapters/15-market-landscape.html` 共16章
-- 样式：`style.css`，包含暗/亮主题、响应式布局、表格、图表、打印样式
-- 交互：`main.js`，包含全文搜索、表格排序/筛选/导出、TOC、阅读进度、主题切换和术语提示
-- 数据：`data/drugs.json`、`data/pipelines.json`、`data/companies.json`、`data/fda_approvals.json`
-- 术语：`data/terms.json`
-- 组件：`components/nav.html`、`components/search.html`、`components/drug-card.html`
-- 资产：`assets/logo.svg`、`assets/favicon.svg`
+## 有链接的章节目录 Index
 
-## 内容框架
+| 章号 | 章节 | 主要内容 |
+| --- | --- | --- |
+| 00 | [总览与导言](chapters/00-overview.md) | 癌症全球负担数据；现代癌症治疗体系框架；本数据库使用指南 |
+| 01 | [癌症生物学基础](chapters/01-cancer-biology.md) | 癌症的分子基础；癌症的标志性特征；肿瘤异质性 |
+| 02 | [肿瘤免疫治疗——免疫检查点抑制剂](chapters/02-immunotherapy.md) | 免疫检查点的生物学原理；已批准的免疫检查点抑制剂；临床应用与疗效 |
+| 03 | [CAR-T细胞治疗](chapters/03-car-t.md) | CAR-T的结构与基本原理；CAR-T制备流程；已批准CAR-T产品 |
+| 04 | [抗体药物偶联物（ADC）](chapters/04-adc.md) | ADC的结构与作用机制；连接子技术的演进；毒素载荷技术 |
+| 05 | [双特异性抗体](chapters/05-bispecific.md) | 双特异性抗体的设计原理；T细胞衔接器；NK与髓系细胞衔接器 |
+| 06 | [靶向小分子治疗](chapters/06-targeted-therapy.md) | 激酶抑制剂的代际演变；KRAS靶向突破；靶点—药物—适应症全景 |
+| 07 | [蛋白降解技术（PROTAC与分子胶）](chapters/07-protac-deg.md) | PROTAC的原理与设计；主要E3连接酶；分子胶降解剂 |
+| 08 | [基因治疗与细胞治疗](chapters/08-gene-therapy.md) | 基因治疗的递送系统；CRISPR在肿瘤学中的应用；TCR-T疗法 |
+| 09 | [放射性药物治疗](chapters/09-radiopharm.md) | 放射性药物的基本原理；已批准放射性药物；PSMA靶向治疗革命 |
+| 10 | [肿瘤微环境干预](chapters/10-tumor-microenv.md) | TME的组成与功能；巨噬细胞靶向策略；髓系来源抑制细胞 |
+| 11 | [新抗原与个性化癌症疫苗](chapters/11-neoantigen.md) | 新抗原的生成与识别；个性化疫苗设计流程；临床里程碑与关键数据 |
+| 12 | [主要药企管线与战略布局](chapters/12-pipelines.md) | 免疫肿瘤学巨头；ADC专注公司；CAR-T与细胞治疗格局 |
+| 13 | [FDA政策与监管框架](chapters/13-fda-policy.md) | 肿瘤药物加速审批机制；加速批准争议与改革；生物标志物与伴随诊断政策 |
+| 14 | [前沿探索路线](chapters/14-emerging-routes.md) | 人工智能与药物发现；合成致死与DDR靶点；表观遗传学靶向治疗 |
+| 15 | [市场格局与投资动态](chapters/15-market-landscape.md) | 全球市场规模与增长；重大并购交易；授权合作热点 |
 
-1. 项目总览与导言
-2. 癌症生物学基础
-3. 肿瘤免疫治疗
-4. CAR-T细胞治疗
-5. 抗体药物偶联物（ADC）
-6. 双特异性抗体
-7. 靶向小分子治疗
-8. 蛋白降解技术（PROTAC/分子胶）
-9. 基因治疗与细胞治疗
-10. 放射性药物治疗
-11. 肿瘤微环境干预
-12. 新抗原与个性化疫苗
-13. 主要药企管线与布局
-14. FDA政策与监管框架
-15. 前沿探索路线
-16. 市场格局与投资动态
+## 仓库结构
 
-## 本地运行
-
-这是纯静态网站，不需要构建步骤。
-
-推荐方式：
-
-1. 用 VS Code 打开仓库。
-2. 安装 Live Server 扩展。
-3. 右键 `oncology-database/index.html`，选择 “Open with Live Server”。
-
-也可以使用 Python：
-
-```bash
-cd oncology-database
-python3 -m http.server 8000
+```text
+oncology-database/
+├── index.md
+├── README.md
+├── chapters/
+│   ├── 00-overview.md
+│   └── ... 15-market-landscape.md
+├── data/
+│   ├── drugs.json
+│   ├── pipelines.json
+│   ├── companies.json
+│   ├── fda_approvals.json
+│   └── terms.json
+└── assets/
+    ├── logo.svg
+    └── favicon.svg
 ```
 
-然后访问 `http://127.0.0.1:8000/`。
+## 使用说明
 
-## GitHub Pages 部署
+- 直接在 GitHub 中打开 `README.md` 或 `index.md` 即可阅读。
+- 每章为独立 Markdown 文件，便于复制、批注和版本比较。
+- 原交互图表已转写为“图示说明”文字块；原 HTML 表格已转换为 Markdown 表格。
+- JSON 文件保留结构化数据用途，可用于后续重新生成网站或接入检索系统。
 
-1. 将仓库推送到 GitHub。
-2. 进入 GitHub 仓库 Settings → Pages。
-3. Source 选择 `Deploy from a branch`。
-4. Branch 选择主分支，目录选择 `/root`。
-5. 站点入口为 `oncology-database/index.html`。
+## 数据口径与责任边界
 
-如果希望根路径直接打开 OncoAtlas，可将 `oncology-database/` 内文件移动到仓库根目录，或在根目录添加跳转页。
-
-## 数据口径与引用
-
-- 药物、管线、公司和FDA批准信息优先采用 FDA、ClinicalTrials.gov、公司年报/公告、NEJM、Nature、Lancet、JCO 等来源。
-- 快速变化或无法完全核实的数据以 `[待核实]` 标注。
-- 市场收入、交易金额和融资趋势按公开披露近似整理，潜在交易总额不等于已支付现金。
-- 本站为教育和研究用途，不构成医疗建议、投资建议或监管意见。
-
-## 交互功能
-
-- `Ctrl+K` / `Cmd+K` 打开全局搜索。
-- 表格支持筛选、点击表头排序、CSV导出和行选中。
-- 图表使用 Chart.js 和 D3.js 按视口懒加载。
-- 侧边栏章节导航、右侧文章目录、顶部阅读进度条和底部章节跳转均为客户端实现。
-- 术语提示从 `data/terms.json` 按需读取。
-
-## 无障碍与兼容性
-
-- SVG图示包含 `role="img"` 与 `aria-label`。
-- 数据表包含 `caption`、`th` 与可键盘访问控件。
-- 图表配有 `figcaption`，避免只依赖颜色传达信息。
-- 打印样式会隐藏导航与交互组件，优化正文和表格分页。
-- 所有路径使用相对路径，兼容 GitHub Pages 静态托管。
-
-## 贡献指南
-
-1. 新增内容时优先更新对应 `chapter-content/*.html`，再运行 `node tools/generate-chapter-shells.mjs` 生成章节页。
-2. 新增药物或公司请同步更新 `data/*.json`，保持 `id` 唯一。
-3. 新增图表需提供文字说明和来源，并使用站点CSS变量。
-4. 新增表格需使用 `.table-wrapper` 模板，以自动获得排序、筛选和导出功能。
-5. 所有临床数据需写明试验名称、终点和来源；不确定项标注 `[待核实]`。
+- 内容版本：2025.Q2；部分监管和市场章节含 2025 全年回顾补充。
+- 药物、临床试验、FDA 批准和公司信息优先参考 FDA、ClinicalTrials.gov、公司公告、NEJM、Nature、Lancet、JCO 等来源。
+- 本项目仅供教育和研究使用，不构成医疗建议、投资建议或监管意见。
 
 ## 许可证
 
 MIT License。
-
-本项目内容仅供教育与研究使用。引用第三方数据和文献时请遵守原始来源许可和版权要求。
