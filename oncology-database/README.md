@@ -59,6 +59,72 @@ oncology-database/
 - 原交互图表已转写为“图示说明”文字块；原 HTML 表格已转换为 Markdown 表格。
 - JSON 文件保留结构化数据用途，可用于后续重新生成网站或接入检索系统。
 
+## 如何刷新/更新整个数据库
+
+建议每次更新按“先更新数据，再更新章节，最后校验链接”的顺序执行，避免章节正文和结构化 JSON 记录不一致。
+
+1. 从仓库根目录拉取最新状态：
+
+   ```bash
+   git pull origin main
+   ```
+
+2. 更新结构化数据文件：
+
+   - `data/drugs.json`：新增或修订药物、靶点、适应症、关键试验和章节引用。
+   - `data/pipelines.json`：更新临床阶段、试验编号、预计读出时间和合作方。
+   - `data/companies.json`：更新公司管线、并购、授权和战略布局。
+   - `data/fda_approvals.json`：更新 FDA 批准、撤销、适应症扩展和标签变化。
+   - `data/terms.json`：补充新术语、缩写和中文解释。
+
+3. 更新 Markdown 正文：
+
+   - 总目录：`index.md`
+   - 章节正文：`chapters/*.md`
+   - 如果新增章节，需同步更新仓库根目录 `README.md`、本文件和 `index.md` 中的目录链接。
+
+4. 回到仓库根目录执行校验：
+
+   ```bash
+   jq empty oncology-database/data/drugs.json
+   jq empty oncology-database/data/pipelines.json
+   jq empty oncology-database/data/companies.json
+   jq empty oncology-database/data/fda_approvals.json
+   jq empty oncology-database/data/terms.json
+   python3 - <<'PY'
+   from pathlib import Path
+   import re, sys
+
+   files = [Path("README.md"), *Path("oncology-database").rglob("*.md")]
+   broken = []
+   for file in files:
+       text = file.read_text(encoding="utf-8")
+       for match in re.finditer(r"\[[^\]]+\]\(([^)]+)\)", text):
+           target = match.group(1).strip()
+           if target.startswith(("http://", "https://", "mailto:", "#")):
+               continue
+           path = target.split("#", 1)[0]
+           if path and not (file.parent / path).resolve().exists():
+               broken.append(f"{file}: {target}")
+
+   print(f"checked {len(files)} markdown files; broken relative links: {len(broken)}")
+   for item in broken:
+       print(item)
+   sys.exit(1 if broken else 0)
+   PY
+   ```
+
+5. 提交并发布：
+
+   ```bash
+   git status -sb
+   git add README.md oncology-database
+   git commit -m "Refresh OncoAtlas database"
+   git push origin main
+   ```
+
+更新原则：所有新增临床数据必须写明来源和数据截止时间；不确定信息使用 `[待核实]` 标注；涉及 FDA 批准、适应症、价格、公司交易和临床阶段的信息，应优先回到 FDA、ClinicalTrials.gov、公司公告和同行评议论文复核。
+
 ## 数据口径与责任边界
 
 - 内容版本：2025.Q2；部分监管和市场章节含 2025 全年回顾补充。
