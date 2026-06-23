@@ -5,11 +5,12 @@ OncoAtlas 是一个 Markdown 版癌症治疗前沿知识数据库，面向具有
 ## 阅读入口
 
 - [总目录 Index](index.md)
-- [药物数据库 JSON](data/drugs.json)
-- [管线数据库 JSON](data/pipelines.json)
-- [公司数据库 JSON](data/companies.json)
-- [FDA 批准记录 JSON](data/fda_approvals.json)
-- [术语缩写表 JSON](data/terms.json)
+- [数据目录](data/README.md)
+- [药物数据库](data/drugs.md)
+- [管线数据库](data/pipelines.md)
+- [公司数据库](data/companies.md)
+- [FDA 批准记录](data/fda_approvals.md)
+- [术语缩写表](data/terms.md)
 
 ## 有链接的章节目录 Index
 
@@ -42,11 +43,12 @@ oncology-database/
 │   ├── 00-overview.md
 │   └── ... 15-market-landscape.md
 ├── data/
-│   ├── drugs.json
-│   ├── pipelines.json
-│   ├── companies.json
-│   ├── fda_approvals.json
-│   └── terms.json
+│   ├── README.md
+│   ├── drugs.md
+│   ├── pipelines.md
+│   ├── companies.md
+│   ├── fda_approvals.md
+│   └── terms.md
 └── assets/
     ├── logo.svg
     └── favicon.svg
@@ -57,11 +59,11 @@ oncology-database/
 - 直接在 GitHub 中打开 `README.md` 或 `index.md` 即可阅读。
 - 每章为独立 Markdown 文件，便于复制、批注和版本比较。
 - 原交互图表已转写为“图示说明”文字块；原 HTML 表格已转换为 Markdown 表格。
-- JSON 文件保留结构化数据用途，可用于后续重新生成网站或接入检索系统。
+- 数据文件已转换为 Markdown 表格，便于在 GitHub 中直接浏览、搜索和引用。
 
 ## 如何刷新/更新整个数据库
 
-建议每次更新按“先更新数据，再更新章节，最后校验链接”的顺序执行，避免章节正文和结构化 JSON 记录不一致。
+建议每次更新按“先更新数据，再更新章节，最后校验链接”的顺序执行，避免章节正文和数据表记录不一致。
 
 1. 从仓库根目录拉取最新状态：
 
@@ -69,13 +71,14 @@ oncology-database/
    git pull origin main
    ```
 
-2. 更新结构化数据文件：
+2. 更新数据表文件：
 
-   - `data/drugs.json`：新增或修订药物、靶点、适应症、关键试验和章节引用。
-   - `data/pipelines.json`：更新临床阶段、试验编号、预计读出时间和合作方。
-   - `data/companies.json`：更新公司管线、并购、授权和战略布局。
-   - `data/fda_approvals.json`：更新 FDA 批准、撤销、适应症扩展和标签变化。
-   - `data/terms.json`：补充新术语、缩写和中文解释。
+   - `data/drugs.md`：新增或修订药物、靶点、适应症、关键试验和章节引用。
+   - `data/pipelines.md`：更新临床阶段、试验编号、预计读出时间和合作方。
+   - `data/companies.md`：更新公司管线、并购、授权和战略布局。
+   - `data/fda_approvals.md`：更新 FDA 批准、撤销、适应症扩展和标签变化。
+   - `data/terms.md`：补充新术语、缩写和中文解释。
+   - `data/README.md`：如新增或删除数据表，需要同步更新数据目录。
 
 3. 更新 Markdown 正文：
 
@@ -86,17 +89,26 @@ oncology-database/
 4. 回到仓库根目录执行校验：
 
    ```bash
-   jq empty oncology-database/data/drugs.json
-   jq empty oncology-database/data/pipelines.json
-   jq empty oncology-database/data/companies.json
-   jq empty oncology-database/data/fda_approvals.json
-   jq empty oncology-database/data/terms.json
    python3 - <<'PY'
    from pathlib import Path
    import re, sys
 
    files = [Path("README.md"), *Path("oncology-database").rglob("*.md")]
+   required_data = [
+       Path("oncology-database/data/drugs.md"),
+       Path("oncology-database/data/pipelines.md"),
+       Path("oncology-database/data/companies.md"),
+       Path("oncology-database/data/fda_approvals.md"),
+       Path("oncology-database/data/terms.md"),
+   ]
    broken = []
+   missing = [str(path) for path in required_data if not path.exists()]
+   malformed = []
+   for path in required_data:
+       if path.exists():
+           text = path.read_text(encoding="utf-8")
+           if "| --- |" not in text:
+               malformed.append(str(path))
    for file in files:
        text = file.read_text(encoding="utf-8")
        for match in re.finditer(r"\[[^\]]+\]\(([^)]+)\)", text):
@@ -108,9 +120,15 @@ oncology-database/
                broken.append(f"{file}: {target}")
 
    print(f"checked {len(files)} markdown files; broken relative links: {len(broken)}")
+   print(f"required data files missing: {len(missing)}")
+   print(f"data tables missing markdown separators: {len(malformed)}")
+   for item in missing:
+       print(f"missing data file: {item}")
+   for item in malformed:
+       print(f"malformed data table: {item}")
    for item in broken:
        print(item)
-   sys.exit(1 if broken else 0)
+   sys.exit(1 if broken or missing or malformed else 0)
    PY
    ```
 
