@@ -1,6 +1,6 @@
 # 第08章：基因治疗与细胞治疗
 
-> OncoAtlas 癌症治疗前沿知识数据库 · 内容版本：2025.Q2 · 证据截止：2025-06-30。
+> OncoAtlas 癌症治疗前沿知识数据库 · 内容版本：2026.Q4 · 证据截止：2026-11-12。
 
 ## 学习目标
 
@@ -9,6 +9,7 @@
 - 理解TCR-T疗法的核心概念、证据边界与临床转化逻辑。
 - 理解TIL疗法的核心概念、证据边界与临床转化逻辑。
 - 理解溶瘤病毒的核心概念、证据边界与临床转化逻辑。
+- 理解2025—2026年细胞与基因治疗的商业重组、区域审批分化与溶瘤病毒首个联合获批的核心概念、证据边界与临床转化逻辑。
 
 ## 章节导航
 
@@ -89,21 +90,27 @@ T细胞受体工程化T细胞（T-cell Receptor-engineered T cell，**TCR-T**）
 
 FDA于2024年8月批准afamitresgene autoleucel（商品名Tecelra），这是美国首个获批的TCR基因治疗。适用于HLA-A*02:01P、A*02:02P、A*02:03P或A*02:06P阳性、MAGE-A4阳性、既往化疗后不可切除或转移性滑膜肉瘤成人。加速批准依据总体缓解率43.2%和中位缓解持续时间6个月；患者选择同时依赖HLA分型和经验证的MAGE-A4检测。
 
+TCR-T的2025—2026年主题是“资产换手”而非“疗效飞跃”。Adaptimmune于2025-07-28签署协议、2025-08-04完成把Tecelra、lete-cel、afami-cel和uza-cel整体出售给US WorldMeds，交易为5,500万美元现金加最高3,000万美元里程碑；约一半美国员工随资产转移，Adaptimmune仅保留临床前PRAME与CD70项目。这说明首个获批TCR-T的商业化难度被低估：窄适应症、HLA加抗原双重筛选和中心化制造共同压缩了商业空间。收购方计划推进lete-cel上市，该产品已于2025-01获FDA突破性疗法认定（用于既往含蒽环类化疗后的不可切除/转移性黏液样/圆细胞脂肪肉瘤），关键II期IGNYTE-ESO在64例接受治疗患者中ORR为42%（滑膜肉瘤14/34，MRCLS 13/30）；截至2026-11-12未检索到FDA批准公告，BLA受理与审评进度`[待核实]`。
+
+另一条晚期管线是Immatics的IMA203（anzu-cel，anzutresgene autoleucel），靶向PRAME肽–HLA-A*02:01，用于二线及以上皮肤黑色素瘤的III期SUPRAME。公司在2026年第二季度更新中表示，由于进展与死亡事件累积慢于建模预期，将取消原定的PFS中期分析，改为按更低的预设事件数进行单次最终分析，顶线数据预计在2027年上半年、BLA提交预计在2027年。这类“把两次分析合并为一次”的调整常被解读为利空，但其直接含义是事件累积慢（可能与人群预后较好或治疗线次有关），需要等最终分析才能判断疗效。
+
 必须纠正一个常见分类错误：Tebentafusp（Kimmtrak）不是TCR-T，也不是回输细胞。它是可溶性双特异ImmTAC蛋白，一端为亲和力增强TCR，识别HLA-A*02:01呈递的gp100肽，另一端结合CD3招募患者自身T细胞，用于葡萄膜黑色素瘤。它证明肽–HLA可成药，却不属于细胞治疗制造范畴。
 
 ### 表8-2：已批准或晚期细胞/基因治疗及相邻产品
 
-**肿瘤细胞、基因与相邻免疫产品的分类和证据边界**
+**十个肿瘤细胞、基因与相邻免疫产品的分类和证据边界（截至2026.Q4）**
 
 | 产品/项目 | 类别 | 靶点/载荷 | 疾病 | 状态 | 关键证据或说明 |
 | --- | --- | --- | --- | --- | --- |
-| Tecelra | 自体TCR-T | MAGE-A4/HLA-A*02 | 滑膜肉瘤 | FDA 2024 | ORR 43.2%；首个FDA TCR基因治疗 |
-| Amtagvi | 自体TIL | 多克隆肿瘤反应T细胞 | 黑色素瘤 | FDA 2024 | 首个FDA TIL疗法 |
+| Tecelra | 自体TCR-T | MAGE-A4/HLA-A*02 | 滑膜肉瘤 | FDA 2024；2025-08资产转至US WorldMeds | ORR 43.2%；首个FDA TCR基因治疗 |
+| Amtagvi | 自体TIL | 多克隆肿瘤反应T细胞 | 黑色素瘤 | FDA 2024；加拿大2025-08附条件批准；EU申请2025-07撤回 | 首个FDA TIL疗法；区域审批出现分化 |
 | Kimmtrak | 可溶性ImmTAC，非TCR-T | gp100/HLA-A*02×CD3 | 葡萄膜黑色素瘤 | FDA 2022 | 现成蛋白药，不需采集患者T细胞 |
 | Imlygic / T-VEC | 溶瘤病毒 | 改造HSV-1+GM-CSF | 黑色素瘤局部病灶 | FDA 2015 | 病灶内注射；未证实改善总生存 |
-| Letetresgene autoleucel | 自体TCR-T | NY-ESO-1 | 滑膜肉瘤等 | 临床开发 | HLA与抗原双重选择 |
-| Autogene cevumeran | 个体化mRNA疫苗 | 患者新抗原 | 胰腺癌等 | II期 | 术后免疫原性研究 |
-| V940 / mRNA-4157 | 个体化mRNA疫苗 | 最多34个新抗原 | 黑色素瘤等 | III期 | 与pembrolizumab联合开发 |
+| Tudriqev / RP1 | 溶瘤病毒（联合nivolumab） | HSV-1+GALV-GP R−+GM-CSF | 抗PD-1治疗后进展的晚期黑色素瘤 | FDA加速批准 2026-08-06 | ORR 24.2%、中位DOR 14.1个月；经两次CRL后获批 |
+| Papzimeos | 非复制腺病毒载体免疫治疗 | HPV 6/11融合抗原 | 复发性呼吸道乳头状瘤病（非恶性） | FDA 2025-08 | 完全缓解51.4%（12个月内无需手术）；提示HPV驱动非肿瘤适应症 |
+| Letetresgene autoleucel | 自体TCR-T | NY-ESO-1 | 滑膜肉瘤/MRCLS | 关键II期完成；BLA进度`[待核实]` | IGNYTE-ESO ORR 42%；2025-01获MRCLS突破性疗法认定 |
+| Autogene cevumeran | 个体化mRNA疫苗 | 患者新抗原 | 胰腺癌等 | 胰腺癌II期进行中；结直肠癌II期2026-08终止 | 术后免疫原性研究；CRC终止因总生存数值失衡 |
+| V940 / mRNA-4157（intismeran autogene） | 个体化mRNA疫苗 | 最多34个新抗原 | 黑色素瘤等 | III期达主要终点（2026-08顶线，2026-10 ESMO详细数据） | RFS HR 0.58；与pembrolizumab联合 |
 | CASGEVY | CRISPR编辑自体HSC | BCL11A红系增强子 | 镰状细胞病/β地贫 | FDA批准 | 非肿瘤；编辑制造与监管先例 |
 
 ### 表8-6：CAR-T与TCR-T关键特征比较
@@ -135,16 +142,18 @@ Lifileucel（商品名Amtagvi）于2024年2月获得FDA加速批准，用于既�
 
 实体瘤扩展的关键是取得可制造组织、缩短周转时间、提高真正肿瘤反应克隆比例并减少终末分化。候选策略包括按PD-1、CD39/CD103或新抗原反应富集TIL，使用更温和细胞因子，敲除*CISH*，以及与ICI联合。疗效比较必须考虑单臂研究、既往治疗和可进入制造流程的选择偏倚，不能直接把不同癌种ORR横向排名。
 
+TIL在2025—2026年的最大变化是区域监管出现分化。Iovance于2025-07-22主动撤回Amtagvi的欧盟上市许可申请，EMA在撤回信中记录的意见是现有临床数据不足以评估疗效、支持所提剂量的数据不充分，且基于当时资料认为获益未超过风险（包括致死性不良事件）；随后Amtagvi于2025-08-15获加拿大附条件批准（NOC/c，须以确证性数据维持），并在2026年获澳大利亚TGA批准，成为其第三个获批地区；英国申请于2026-05因程序原因撤回并于2026-07重新提交进入加速审评，瑞士预计2027年上半年。商业端，公司2026年第二季度报告美国Amtagvi收入约9,100万美元、总收入9,900万美元（同比增长66%）。确证性与扩展研究方面，III期TILVANCE-301（lifileucel联合pembrolizumab用于一线晚期黑色素瘤）既承担二线完全批准的确证任务，又设有基于ORR的早期中期分析以支持一线sBLA，尚无结果读出；非小细胞肺癌的IOV-LUN-202此前报告ORR 26%，公司计划以其支持非鳞NSCLC的sBLA。同一产品在不同监管体系得到相反判断，提示单臂TIL证据对剂量合理性和获益风险描述的要求正在提高。
+
 ### 表8-4：TIL疗法关键临床项目与证据
 
 **八个TIL产品或研究方向的临床定位**
 
 | 产品/方案 | 公司/机构 | 癌种 | 阶段 | 设计特征 | 证据解读 |
 | --- | --- | --- | --- | --- | --- |
-| Lifileucel / LN-144 | Iovance | 黑色素瘤 | FDA加速批准 | 中心化自体TIL | 首个批准TIL；需验证性证据 |
+| Lifileucel / LN-144 | Iovance | 黑色素瘤 | FDA加速批准；加拿大、澳大利亚已批准；欧盟申请撤回 | 中心化自体TIL | 首个批准TIL；需验证性证据 |
 | LN-145 | Iovance | 宫颈癌 | II期 | 既往治疗后TIL | 单臂信号需随机研究确认 |
-| Lifileucel+pembrolizumab | Iovance/MSD | 黑色素瘤 | III期开发 | 细胞+PD-1阻断 | 检验更早线联合价值 |
-| LN-145 | Iovance | NSCLC | II期 | ICI后人群 | 组织获取和制造可行性关键 |
+| Lifileucel+pembrolizumab（TILVANCE-301） | Iovance/MSD | 黑色素瘤 | III期进行中，尚无读出 | 细胞+PD-1阻断 | 既是二线完全批准的确证研究，又含一线ORR中期分析 |
+| LN-145 / IOV-LUN-202 | Iovance | NSCLC | II期，ORR 26% | ICI后人群 | 计划支持非鳞NSCLC的sBLA；组织获取和制造可行性关键 |
 | ITIL-168 | Instil Bio | 黑色素瘤 | 开发调整 | 选定TIL平台 | 项目状态需持续复核 |
 | OBX-115 | Obsidian | 黑色素瘤/NSCLC | I期 | 膜结合IL-15调控TIL | 尝试降低外源高剂量IL-2依赖 |
 | KSQ-001EX | KSQ Therapeutics | 实体瘤 | I/II期 | *CISH*编辑TIL | 增强功能与安全窗并重 |
@@ -165,19 +174,25 @@ Talimogene laherparepvec（T-VEC，商品名Imlygic）由HSV-1改造：删除与
 
 与ICI联合的理论是OV先提高抗原释放、I型干扰素和T细胞浸润，再由PD-1/PD-L1阻断维持效应。然而“冷转热”不保证临床获益，病毒平台、给药病灶和患者免疫状态差异很大。随机对照研究比小型单臂ORR更能区分病毒贡献与ICI本身作用。
 
+2026年8月，这一联合逻辑第一次得到监管认可，同时也暴露了它的方法学软肋。FDA于2026-08-06对Replimune的vusolimogene oderparepvec-wtpg（RP1，商品名Tudriqev）联合nivolumab给予加速批准，用于既往抗PD-1治疗后进展的不可切除或转移性（晚期皮肤）黑色素瘤成人，依据为IGNYTE研究的ORR 24.2%与中位缓解持续时间14.1个月，确证研究为正在进行的IGNYTE-3。审批过程历经三轮：FDA分别于2025-07和2026-04发出完全回应函（Complete Response Letter，**CRL**），第三次提交于2026-06-26获受理并定于2026-08-02为目标决定日；细胞、组织与基因治疗咨询委员会在2026-07-30以10票对3票认为获益风险有利。FDA在会上明确指出，单臂设计无法判定缓解来自RP1还是nivolumab——这正是OV联合ICI的核心证据难题，也解释了为何批准是加速而非常规。
+
+另一条接近注册的路线是膀胱癌内灌注。CG Oncology的cretostimogene grenadenorepvec在BOND-003队列C（BCG无应答、含原位癌的高危非肌层浸润性膀胱癌）报告24个月完全缓解率41.8%（46/110）且未出现≥3级治疗相关不良事件，队列P（仅乳头状病变）3/6/9个月高级别无复发生存分别为95.7%、84.6%和80.4%；公司2026年第一季度指引为在完成剩余CMC模块后于2026年第四季度完成BLA提交，因此截至2026-11-12尚未进入审评决定阶段。
+
 ### 表8-5：溶瘤病毒主要产品与临床管线
 
-**十个溶瘤病毒产品或平台的载体和开发重点**
+**十二个溶瘤病毒或瘤内基因治疗产品的载体和开发重点（截至2026.Q4）**
 
 | 产品 | 公司/机构 | 病毒骨架 | 工程载荷/特点 | 癌种 | 状态 |
 | --- | --- | --- | --- | --- | --- |
 | T-VEC / Imlygic | Amgen | HSV-1 | GM-CSF；病灶内 | 黑色素瘤 | FDA批准 |
 | Teserpaturev / Delytact | Daiichi Sankyo | HSV-1 | 三重突变 | 恶性胶质瘤 | 日本条件批准 |
 | Pelareorep | Oncolytics Biotech | 呼肠孤病毒 | 天然溶瘤偏好 | 乳腺癌等 | II期 |
-| RP1 | Replimune | HSV-1 | GALV-GP R−+GM-CSF | 皮肤肿瘤 | 注册性开发 |
+| RP1 / Tudriqev | Replimune | HSV-1 | GALV-GP R−+GM-CSF | 抗PD-1后进展的晚期黑色素瘤 | FDA加速批准（2026-08-06，联合nivolumab） |
 | RP2 | Replimune | HSV-1 | 抗CTLA-4样分子 | 实体瘤 | I/II期 |
 | ONCR-177 | Oncorus | HSV-1 | 多免疫载荷 | 实体瘤 | 项目停止 |
 | Adstiladrin | Ferring | 非复制腺病毒 | IFNα2b基因 | 膀胱癌 | 基因治疗获批 |
+| Cretostimogene grenadenorepvec | CG Oncology | 腺病毒（选择性复制） | 瘤内灌注 | BCG无应答高危NMIBC | BLA提交预计2026年第四季度完成 |
+| Papzimeos / zopapogene imadenovec | Precigen | 非复制腺病毒 | HPV 6/11融合抗原 | 复发性呼吸道乳头状瘤病（非恶性） | FDA批准（2025-08） |
 | VCN-01 | Theriva Biologics | 腺病毒 | 透明质酸酶PH20 | 胰腺癌等 | II期 |
 | Pexa-Vec / JX-594 | SillaJen/合作方 | 痘苗病毒 | GM-CSF | 肝癌等 | 晚期失败/研究 |
 | CAN-2409 | Candel | 腺病毒 | HSV-tk+前药 | 前列腺癌/胶质瘤 | III期开发 |
@@ -188,16 +203,45 @@ Talimogene laherparepvec（T-VEC，商品名Imlygic）由HSV-1改造：删除与
 
 mRNA平台把抗原序列直接交给患者细胞翻译，避免永久整合，并可在一条分子中编码多个表位。序列优化、修饰核苷、帽结构、poly(A)尾和LNP共同决定稳定性、翻译与先天免疫。肿瘤疫苗需要在足够免疫刺激与过强RNA感知导致翻译受抑之间取得平衡。
 
-V940（mRNA-4157）是基于患者肿瘤测序设计的个体化新抗原疗法，可编码最多34个候选新抗原，与pembrolizumab联合在高风险切除黑色素瘤中进入III期开发。Autogene cevumeran在胰腺导管腺癌术后研究中诱导部分患者持久T细胞反应。两者都说明“疫苗”不是预防感染式的单一抗原制剂，而是测序、算法、快速生产和免疫联合构成的闭环。
+V940（mRNA-4157，通用名intismeran autogene）是基于患者肿瘤测序设计的个体化新抗原疗法，可编码最多34个候选新抗原，与pembrolizumab联合用于高风险切除黑色素瘤。2026-08-19，Merck与Moderna宣布III期INTerpath-001在预设中期分析达到主要终点无复发生存（RFS）及关键次要终点无远处转移生存（DMFS）；2026-10的ESMO详细数据显示RFS HR为0.58（95% CI 0.45–0.75，p<0.001），这是个体化癌症疫苗首个III期阳性结果。Autogene cevumeran在胰腺导管腺癌术后研究中诱导部分患者持久T细胞反应，但其在ctDNA阳性切除结直肠癌的II期研究已于2026-08因独立数据安全监查委员会提示总生存数值失衡而终止。两者都说明“疫苗”不是预防感染式的单一抗原制剂，而是测序、算法、快速生产和免疫联合构成的闭环，并且同一平台在不同癌种、不同是否联合ICI的设计下结果可能相反。
 
 个体化制造从肿瘤与正常样本测序开始，识别体细胞突变并确认表达，再预测HLA结合、抗原加工和克隆性，选择有限表位编码入mRNA。时间延迟会使快速进展患者在产品完成前失去治疗机会，因此算法准确性、并行质控、模块化生产和桥接治疗同样属于临床效力的一部分。更完整的新抗原选择与KEYNOTE-942证据见[第11章个性化疫苗设计流程](11-neoantigen.md)。
 
-mRNA也可编码细胞因子、双特异蛋白、肿瘤抑制因子或体内CAR元件。短暂表达有利于控制毒性，却意味着需要重复给药；LNP组织分布和先天免疫会决定治疗窗。现阶段应把mRNA视为可编程表达平台，而不是默认具有肿瘤选择性的药物。
+mRNA也可编码细胞因子、双特异蛋白、肿瘤抑制因子或体内CAR元件。短暂表达有利于控制毒性，却意味着需要重复给药；LNP组织分布和先天免疫会决定治疗窗。2025—2026年，靶向LNP递送CAR mRNA和环状RNA递送CAR成为大型药企并购的焦点（AbbVie收购Capstan、BMS收购Orbital、Eli Lilly收购Orna），但这些项目的首个适应症多为B细胞驱动的自身免疫病，详见[第03章体内CAR-T](03-car-t.md)。现阶段应把mRNA视为可编程表达平台，而不是默认具有肿瘤选择性的药物。
 
 > **图示：细胞与基因治疗模式的开发权衡**
 > 相对评分用于展示开发权衡，不代表跨产品疗效比较；数值越高表示该特征越强或要求越高。
 
 > **关键概念：** **平台不等于产品。**“CRISPR”“mRNA”或“溶瘤病毒”只描述技术底盘；最终临床价值取决于具体靶点、递送、剂量、制造一致性、患者筛选和对照试验证据。
+
+> **临床/研究亮点：** **RP1的三轮审评是“单臂联合用药”证据边界的教科书案例。**同一套IGNYTE数据（ORR 24.2%、中位DOR 14.1个月）在2025-07和2026-04两次收到CRL，在2026-07-30的咨询委员会上以10比3获得支持后于2026-08-06获加速批准；FDA同时指出单臂设计无法区分RP1与nivolumab各自的贡献，因此确证研究IGNYTE-3的随机结果才是这一联合策略的最终判决。
+
+## 08.7 2025下半年—2026年关键进展（截至2026-11-12）
+
+与CAR-T相比，细胞与基因治疗的其他路线在这18个月里更多经历“结构性调整”：首个获批TCR-T整体易主、首个获批TIL在不同监管体系得到相反结论、溶瘤病毒终于拿到首个与ICI联合的加速批准、而个体化mRNA疫苗首次拿出III期阳性结果。下表汇总可核实的关键事件。
+
+### 表8-7：细胞与基因治疗关键进展（2025-07至2026-11）
+
+**十项可核实的监管、临床与交易事件**
+
+| 日期 | 事件 | 类型 | 意义/备注 |
+| --- | --- | --- | --- |
+| 2025-07-22 | Iovance撤回Amtagvi的欧盟上市许可申请 | 监管 | EMA记录的意见是疗效与剂量数据不足、获益未超风险 |
+| 2025-07-28 / 2025-08-04 | Adaptimmune与US WorldMeds签署并完成细胞治疗资产出售 | 交易 | Tecelra、lete-cel、afami-cel、uza-cel；5,500万美元现金加最高3,000万美元里程碑 |
+| 2025-08 | FDA批准Papzimeos（zopapogene imadenovec）用于成人复发性呼吸道乳头状瘤病 | 监管 | HPV驱动的非恶性疾病；完全缓解51.4%，四次皮下注射给药 |
+| 2025-08-15 | 加拿大附条件批准（NOC/c）Amtagvi用于晚期黑色素瘤 | 监管 | Iovance首个美国以外上市许可，需确证性数据维持 |
+| 2026-04 | FDA对RP1发出第二封完全回应函 | 监管 | 第一封为2025-07；同一数据集经三轮审评 |
+| 2026-06-26 | FDA受理RP1第三次BLA提交，目标决定日2026-08-02 | 监管 | 并安排细胞、组织与基因治疗咨询委员会 |
+| 2026-07-30 | 咨询委员会以10比3支持RP1联合nivolumab的获益风险 | 监管 | FDA同时指出单臂设计无法区分两药贡献 |
+| 2026-08-06 | FDA加速批准Tudriqev（RP1）联合nivolumab用于抗PD-1后进展的晚期黑色素瘤 | 监管 | ORR 24.2%、中位DOR 14.1个月；确证研究IGNYTE-3 |
+| 2026-08-19 / 2026-10 | INTerpath-001顶线达主要终点，ESMO公布RFS HR 0.58 | 临床 | 个体化mRNA疫苗首个III期阳性结果，详见[第11章](11-neoantigen.md) |
+| 2026-08-28 | BioNTech终止autogene cevumeran在ctDNA阳性切除结直肠癌的II期研究 | 临床 | 依据独立数据安全监查委员会提示的总生存数值失衡 |
+
+TCR-T与TIL的共同教训是“获批不等于可持续”。Tecelra作为首个FDA批准的TCR基因治疗，在上市不到一年后随整条管线被出售，对价（5,500万美元现金加最高3,000万美元里程碑）远低于其研发投入；Amtagvi虽在美国持续增长（2026年第二季度美国收入约9,100万美元），却在欧盟因剂量合理性与获益风险描述不足而撤回申请，同时在加拿大和澳大利亚获批。这提示个体化细胞治疗的商业模型高度依赖适应症宽度、支付环境和制造规模，而非仅取决于首次获批。
+
+溶瘤病毒的进展把“证据等级”问题摆到了台面上。RP1的加速批准建立在单臂ORR之上，FDA在咨询委员会上直接指出无法区分RP1与nivolumab的贡献；在同一领域，cretostimogene的膀胱内灌注路线选择了相对更清晰的单药场景（BCG无应答NMIBC，24个月完全缓解率41.8%），但其BLA直到2026年第四季度才计划完成提交。换言之，OV领域目前的监管进展更多依赖“没有更好选择”的适应症定位，确证性随机研究（IGNYTE-3、PIVOT-006）仍是分水岭。
+
+需要特别区分的是Papzimeos：它是腺病毒载体免疫治疗，获批适应症为HPV 6/11驱动的复发性呼吸道乳头状瘤病——一种**非恶性**但高度致残的疾病。把它当作“肿瘤疫苗获批”会造成误读；其真正意义是证明病毒载体表达共享病毒抗原可以消除对反复手术的依赖，并为HPV相关癌前/癌症适应症提供免疫学与制造先例。
 
 ## 主要参考来源
 
@@ -208,8 +252,19 @@ mRNA也可编码细胞因子、双特异蛋白、肿瘤抑制因子或体内CAR�
 - Rosenberg SA, Restifo NP. Adoptive cell transfer as personalized immunotherapy for human cancer. Science. 2015;348:62–68. [DOI](https://doi.org/10.1126/science.aaa4967)
 - June CH, Sadelain M. Chimeric Antigen Receptor Therapy. New England Journal of Medicine. 2018;379:64–73. [DOI](https://doi.org/10.1056/NEJMra1706169)
 - Rojas LA, et al. Personalized RNA neoantigen vaccines stimulate T cells in pancreatic cancer. Nature. 2023;618:144–150. [DOI](https://doi.org/10.1038/s41586-023-06063-y)
+- U.S. Food and Drug Administration. FDA grants accelerated approval to vusolimogene oderparepvec-wtpg in combination with nivolumab for melanoma. 2026. [FDA](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-grants-accelerated-approval-vusolimogene-oderparepvec-wtpg-combination-nivolumab-melanoma)
+- Medscape. FDA Advisory Panel Backs Replimune's Melanoma Drug. 2026. [Press release](https://www.medscape.com/viewarticle/fda-advisory-panel-backs-replimunes-melanoma-drug-2026a1000q6u)
+- Drugs.com. FDA Approves Papzimeos for Adults With Recurrent Respiratory Papillomatosis. 2025. [Press release](https://www.drugs.com/news/fda-approves-papzimeos-adults-recurrent-respiratory-papillomatosis-126350.html)
+- European Medicines Agency. Amtagvi: withdrawal of the marketing authorisation application. 2025. [EMA](https://www.ema.europa.eu/en/medicines/human/EPAR/amtagvi)
+- Health Canada. Summary Basis of Decision for Amtagvi. 2025. [Regulatory](https://dhpp.hpfb-dgpsa.ca/review-documents/resource/SBD1759755218605)
+- Iovance Biotherapeutics. Iovance Biotherapeutics Reports Record Second Quarter 2026 Revenue. 2026. [Press release](https://www.biospace.com/press-releases/iovance-biotherapeutics-reports-record-second-quarter-2026-revenue-of-99m-business-achievements-and-corporate-updates)
+- Adaptimmune Therapeutics. Adaptimmune Announces Entry into Definitive Agreement for Sale of TECELRA, lete-cel, afami-cel and uza-cel Cell Therapies to US WorldMeds. 2025. [Press release](https://www.newsfilecorp.com/release/260248/Adaptimmune-Announces-Entry-into-Definitive-Agreement-for-Sale-of-TECELRA-letecel-afamicel-and-uzacel-Cell-Therapies-to-US-WorldMeds)
+- CancerNetwork. Lete-cel Earns FDA Breakthrough Therapy Designation in Pretreated MRCLS. 2025. [Press release](https://www.cancernetwork.com/view/lete-cel-earns-fda-breakthrough-therapy-designation-in-pretreated-mrcls)
+- Immatics. Immatics Announces Second Quarter 2026 Financial Results and Business Update. 2026. [Press release](https://www.1stoncology.com/blog/?p=112944)
+- CG Oncology. CG Oncology Reports First Quarter 2026 Financial Results and Provides Business Updates. 2026. [Press release](https://www.barchart.com/story/news/1800334/cg-oncology-reports-first-quarter-2026-financial-results-and-provides-business-updates)
+- CancerNetwork. Autogene Cevumeran Trial Terminated in Resected Colorectal Cancer. 2026. [Press release](https://www.cancernetwork.com/view/autogene-cevumeran-trial-terminated-in-resected-colorectal-cancer)
 
 
 ---
 
-内容版本：2025.Q2。下次更新建议：2025.Q4，重点复核 FDA 标签、临床阶段和公司交易状态。
+内容版本：2026.Q4（证据截止2026-11-12）。下次更新建议：2027.Q2，重点复核 FDA 标签、临床阶段和公司交易状态。

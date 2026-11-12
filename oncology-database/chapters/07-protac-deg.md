@@ -1,6 +1,6 @@
 # 第07章：蛋白降解技术（PROTAC与分子胶）
 
-> OncoAtlas 癌症治疗前沿知识数据库 · 内容版本：2025.Q2 · 证据截止：2025-06-30。
+> OncoAtlas 癌症治疗前沿知识数据库 · 内容版本：2026.Q4 · 证据截止：2026-11-12。
 
 ## 学习目标
 
@@ -9,6 +9,7 @@
 - 理解分子胶降解剂的核心概念、证据边界与临床转化逻辑。
 - 理解临床管线与主要公司的核心概念、证据边界与临床转化逻辑。
 - 理解局限与下一代技术的核心概念、证据边界与临床转化逻辑。
+- 理解首个获批PROTAC（vepdegestrant）与首个获批CELMoD（iberdomide）对靶向降解领域的意义与局限。
 
 ## 章节导航
 
@@ -77,7 +78,7 @@ E3并非仅按表达量选择。开发者还要考虑E3是否在疾病细胞中�
 
 Thalidomide、lenalidomide和pomalidomide结合CRBN，改变CRL4CRBN底物识别并降解转录因子IKZF1/3；在多发性骨髓瘤中，下游IRF4和MYC程序下降，同时存在免疫调节效应。药物的致畸性也来自新底物降解，说明“增加选择性”不等同于安全。CRBN、CUL4复合物或底物degron改变可导致耐药。
 
-新一代CELMoD（Cereblon E3 Ligase Modulator）如iberdomide、mezigdomide（CC-92480）和golcadomide通过更强或不同动力学的CRBN调节实现深度底物降解。它们在IMiD耐药骨髓瘤或淋巴瘤中进入中晚期研究，但感染、骨髓抑制和继发肿瘤风险需要与疗效共同评估。它们是分子胶，不是经典双功能PROTAC。
+新一代CELMoD（Cereblon E3 Ligase Modulator）如iberdomide、mezigdomide（CC-92480）和golcadomide通过更强或不同动力学的CRBN调节实现深度底物降解。它们在IMiD耐药骨髓瘤或淋巴瘤中进入中晚期研究。2026-08-13，iberdomide（Zenbexus）联合皮下达雷妥尤单抗和地塞米松获FDA加速批准，用于既往至少一线（含蛋白酶体抑制剂和免疫调节剂）治疗的复发/难治多发性骨髓瘤。依据是III期EXCALIBER-RRMM中任意时间MRD阴性完全缓解率41%对21%（对照为达雷妥尤单抗+硼替佐米+地塞米松，DVd；主要疗效人群n=420），这使iberdomide成为首个获批CELMoD，也是骨髓瘤首个以MRD为早期终点的加速批准；PFS作为双主要终点之一仍在随访。Mezigdomide的III期SUCCESSOR-2（联合卡非佐米+地塞米松）中位PFS 18.0对8.3个月（进展或死亡风险降低52%），但3–4级治疗期不良事件83.7%对56.5%，SUCCESSOR-1读出已推迟至2027年；golcadomide正在III期GOLSEEK-1中联合R-CHOP用于初治高危大B细胞淋巴瘤。感染、骨髓抑制和继发肿瘤风险仍需与疗效共同评估。它们是分子胶，不是经典双功能PROTAC。
 
 发现方法包括表型筛选、CRISPR耐药筛选、化学蛋白组学和结构设计。若某化合物的细胞活性依赖特定E3，耐药克隆富集E3或底物界面突变，且蛋白组显示选择性降解，就可建立机制链。结构预测可帮助优化已知胶界面，但从任意蛋白表面设计分子胶仍比优化传统口袋困难。
 
@@ -87,35 +88,36 @@ Thalidomide、lenalidomide和pomalidomide结合CRBN，改变CRL4CRBN底物识别
 
 ## 07.4 临床管线与主要公司
 
-第一波临床PROTAC集中在已有配体和成熟生物学的核受体。Vepdegestrant（ARV-471）降解ER并进入III期，成为检验事件驱动降解能否优于现有内分泌药的关键；bavdegalutamide（ARV-110）和luxdegalutamide（ARV-766）面向AR耐药谱。第二波扩展至BTK、BRAF、EGFR、STAT3、BCL6和KRAS G12D，希望通过移除支架或耐药突变蛋白获得差异。
+第一波临床PROTAC集中在已有配体和成熟生物学的核受体。Vepdegestrant（ARV-471）降解ER，III期VERITAC-2在ESR1突变人群中相对氟维司群改善PFS，并于2026-05-01获FDA批准（Veppanu），成为首个获批PROTAC；bavdegalutamide（ARV-110）和luxdegalutamide（ARV-766）面向AR耐药谱：Arvinas已计划在现有试验完成后收尾bavdegalutamide，luxdegalutamide则于2024年以1.5亿美元首付授权给Novartis（代号JSB462），目前处于I/II期并开展联合Lu-177 PSMA的II期研究；BMS的AR配体导向降解剂BMS-986365已进入III期rechARge（NCT06764485，对比研究者选择的ARPI或多西他赛）。第二波扩展至BTK、BRAF、EGFR、STAT3、BCL6和KRAS G12D，希望通过移除支架或耐药突变蛋白获得差异。
 
-Arvinas建立PROTAC Discovery Engine；C4 Therapeutics使用TORPEDO平台；Kymera以Pegasus平台探索STAT3、MDM2等；Nurix的DELigase结合E3发现和降解/抑制，bexobrutideg（NX-5948）为可脑穿透BTK降解剂。Foghorn主要聚焦染色质调控系统，其BRD9项目属于相邻降解路线，但公司不能简单归类为纯PROTAC。Cullgen由Yue Xiong、Jian Jin等共同创立并获得GNI集团早期资金支持，公开资料不支持“百济神州分拆”说法。
+Arvinas建立PROTAC Discovery Engine；C4 Therapeutics使用TORPEDO平台；Kymera以Pegasus平台探索STAT3、MDM2等；Nurix的DELigase结合E3发现和降解/抑制，bexobrutideg（NX-5948）为可脑穿透BTK降解剂。2025—2026年各平台公司明显收缩聚焦：Kymera自2024年起把资源转向免疫学，KT-333和KT-253仅在有合作方时推进到I期之后；C4 Therapeutics于2025-05停止投入CFT1946（不推进至I期以后、寻求合作），集中资源于cemsidomide；Nurix于2026-10终止NX-2127，把资源集中于bexobrutideg；J&J于2025-12-29以30.5亿美元现金完成收购Halda Therapeutics，获得RIPTAC诱导邻近平台及前列腺癌口服候选药HLD-0915（RIPTAC通过诱导靶蛋白与必需蛋白形成复合物杀伤肿瘤细胞，并不以降解为机制）。Foghorn主要聚焦染色质调控系统，其BRD9项目属于相邻降解路线，但公司不能简单归类为纯PROTAC。Cullgen由Yue Xiong、Jian Jin等共同创立并获得GNI集团早期资金支持，公开资料不支持“百济神州分拆”说法。
 
-中国公司与跨国药企同步布局。BeiGene/BeOne的BGB-16673为BTK降解剂，Astellas的ASP3082靶向KRAS G12D；海思科等开发BTK降解项目，Hinova/海创药业推进AR降解。项目代码、合作方和阶段频繁变化，表中状态固定在2025.Q2，不确定信息标注待核实，不把临床前项目写成临床资产。
+中国公司与跨国药企同步布局。BeiGene/BeOne的BGB-16673为BTK降解剂，Astellas的ASP3082靶向KRAS G12D；海思科等开发BTK降解项目，Hinova/海创药业推进AR降解。项目代码、合作方和阶段频繁变化。表中主要项目阶段已于2026.Q4按公司披露和注册信息复核；ARV-393、CFT8919、ASP3082、AC682、HSK29116、HP518和ORM-5029等早期项目沿用2025.Q2信息 [待核实]，不把临床前项目写成临床资产。
 
 ### 表7-3：PROTAC/分子胶临床管线
 
-**二十二个临床阶段或历史临床阶段靶向降解项目**
+**二十三个临床阶段或历史临床阶段靶向降解项目（含2个已获FDA批准）**
 
-| 项目 | 公司 | 类型/E3 | 靶点 | 适应症 | 阶段（2025.Q2） | 试验/备注 | 关键问题 |
+| 项目 | 公司 | 类型/E3 | 靶点 | 适应症 | 阶段（截至2026.Q4） | 试验/备注 | 关键问题 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Vepdegestrant / ARV-471 | Arvinas/Pfizer | PROTAC/CRBN | ER | ER+/HER2−乳腺癌 | III期 | VERITAC-2 | ESR1亚组与既有SERD比较 |
-| Bavdegalutamide / ARV-110 | Arvinas | PROTAC/CRBN | AR | mCRPC | II期/降优先级 | ARDENT | AR突变选择与组合 |
-| Luxdegalutamide / ARV-766 | Arvinas | PROTAC/CRBN | AR | mCRPC | I/II期 | NCT05067140 | 广谱AR降解和口服暴露 |
+| Vepdegestrant / ARV-471 | Arvinas/Pfizer（2026-05与Rigel签署全球权益授权） | PROTAC/CRBN | ER | ESR1m ER+/HER2−乳腺癌 | FDA批准（2026-05-01，Veppanu） | VERITAC-2；Guardant360 CDx | 仅ESR1突变获批；与口服SERD及ctDNA策略竞争 |
+| Bavdegalutamide / ARV-110 | Arvinas | PROTAC/CRBN | AR | mCRPC | 收尾（现有试验完成后停止） | ARDENT | AR突变选择与组合 |
+| Luxdegalutamide / ARV-766（JSB462） | Novartis（自Arvinas授权） | PROTAC/CRBN | AR | mCRPC | I/II期；联合Lu-177 PSMA的II期（NCT07047118） | NCT05067140 | 广谱AR降解和口服暴露 |
+| BMS-986365 / CC-94676 | BMS | 配体导向AR降解剂 | AR | mCRPC | III期（rechARge，NCT06764485） | 降解+拮抗双机制 | QTc延长/心动过缓 |
 | ARV-393 | Arvinas | PROTAC | BCL6 | B细胞淋巴瘤 | I期 | 早期临床 | 正常生发中心生物学 |
-| Cemsidomide / CFT7455 | C4 Therapeutics | MonoDAC/CRBN | IKZF1/3 | MM/NHL | I/II期 | NCT04756726 | 与CELMoD差异化 |
-| CFT1946 | C4 Therapeutics | BiDAC | BRAF V600X | 实体瘤 | I/II期 | NCT05668585 | 突变选择和MAPK反馈 |
+| Cemsidomide / CFT7455 | C4 Therapeutics | MonoDAC/CRBN | IKZF1/3 | MM/NHL | II期MOMENTUM（2026-02首例给药；数据2027） | NCT04756726；计划≥4线加速批准申报 | 与CELMoD差异化 |
+| CFT1946 | C4 Therapeutics | BiDAC | BRAF V600X | 实体瘤 | 停止投入（2025-05，不推进I期以后，寻求合作） | NCT05668585 | 突变选择和MAPK反馈 |
 | CFT8919 | C4 Therapeutics | BiDAC | EGFR L858R | NSCLC | I期 | 早期临床 | 脑暴露与共突变 |
 | CFT8634 | C4 Therapeutics | BiDAC | BRD9 | SMARCB1缺失肿瘤 | 项目终止 | 历史I期 | 暴露/疗效窗口 |
-| KT-333 | Kymera | PROTAC | STAT3 | 血液瘤/实体瘤 | I期/状态需复核 | NCT05225584 | 正常免疫功能和组织PD |
-| KT-253 | Kymera | PROTAC | MDM2 | AML/实体瘤 | I期 | NCT05775406 | p53背景与骨髓毒性 |
-| NX-2127 | Nurix | 降解剂/CRBN | BTK+IKZF1/3 | B细胞恶性肿瘤 | I期 | NCT04830137 | 多底物贡献与毒性 |
-| Bexobrutideg / NX-5948 | Nurix | 降解剂/CRBN | BTK | CLL/WM等 | I期 | NCT05131022；可脑穿透 | 耐药BTK覆盖与持续性 |
-| BGB-16673 | BeOne/BeiGene | BTK degrader | BTK | B细胞恶性肿瘤 | I/II期 | CaDAnCe-101 | 多线BTKi后活性 |
+| KT-333 | Kymera | PROTAC | STAT3 | 血液瘤/实体瘤 | I期；仅在合作下推进 | NCT05225584 | 正常免疫功能和组织PD |
+| KT-253 | Kymera | PROTAC | MDM2 | AML/实体瘤 | I期；仅在合作下推进 | NCT05775406 | p53背景与骨髓毒性 |
+| NX-2127 | Nurix | 降解剂/CRBN | BTK+IKZF1/3 | B细胞恶性肿瘤 | 已终止（2026-10） | NCT04830137 | 多底物贡献与毒性 |
+| Bexobrutideg / NX-5948 | Nurix | 降解剂/CRBN | BTK | CLL/WM等 | 关键II期DAYBreak CLL-201+III期DAYBreak CLL-306（对pirtobrutinib，2026启动） | NCT07221500；可脑穿透 | 耐药BTK覆盖与持续性 |
+| Tacabrutideg / BGB-16673 | BeOne/BeiGene | BTK degrader | BTK | B细胞恶性肿瘤 | III期（R/R CLL，含对pirtobrutinib头对头，2025Q4起入组） | CaDAnCe-101；III期编号各来源不一 | 多线BTKi后活性 |
 | ASP3082 | Astellas | PROTAC | KRAS G12D | 实体瘤 | I期 | NCT05382559 | RAS降解深度与输注/给药 |
-| Mezigdomide / CC-92480 | BMS/Celgene | CELMoD/CRBN胶 | IKZF1/3 | 多发性骨髓瘤 | III期 | SUCCESSOR系列 | 骨髓抑制与感染 |
-| Iberdomide / CC-220 | BMS/Celgene | CELMoD/CRBN胶 | IKZF1/3 | 多发性骨髓瘤 | III期 | EXCALIBER系列 | 与现有IMiD定位 |
-| Golcadomide / CC-99282 | BMS | CELMoD/CRBN胶 | IKZF1/3 | NHL | I/II期 | 组合研究 | 免疫效应与骨髓毒性 |
+| Mezigdomide / CC-92480 | BMS/Celgene | CELMoD/CRBN胶 | IKZF1/3 | 多发性骨髓瘤 | III期SUCCESSOR-2阳性（2026）；SUCCESSOR-1推迟至2027 | SUCCESSOR系列 | 骨髓抑制与感染 |
+| Iberdomide / CC-220 | BMS/Celgene | CELMoD/CRBN胶 | IKZF1/3 | 多发性骨髓瘤 | FDA加速批准（2026-08-13，Zenbexus） | EXCALIBER-RRMM；联合Dara-SC+Dex | MRD终点需PFS确证 |
+| Golcadomide / CC-99282 | BMS | CELMoD/CRBN胶 | IKZF1/3 | 初治高危LBCL等NHL | III期（GOLSEEK-1，联合R-CHOP） | NCT06356129 | 免疫效应与骨髓毒性 |
 | FHD-609 | Foghorn | 异双功能降解剂 | BRD9 | 滑膜肉瘤 | 临床项目终止 | 历史I期 | QT/治疗窗与暴露 |
 | AC682 | Accutar | 嵌合降解剂 | ER | ER+乳腺癌 | I期 | NCT05489679 | 同赛道差异化 |
 | HSK29116 | Haisco | PROTAC | BTK | B细胞恶性肿瘤 | I期 | 中国/全球早期 | 代码与阶段需持续复核 |
@@ -141,8 +143,8 @@ LYTAC（Lysosome-Targeting Chimera）把胞外或膜蛋白连接到溶酶体运�
 
 | 技术 | 目标空间 | 招募机器 | 分子形式 | 优势 | 主要限制 | 成熟度 | 代表方向 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| PROTAC | 胞内蛋白 | E3–蛋白酶体 | 异双功能小分子 | 事件驱动、移除支架 | 大分子/通透/E3依赖 | III期 | ER/AR/BTK |
-| 分子胶 | 胞内蛋白 | E3–蛋白酶体 | 单价小分子 | 较小、口服友好 | 发现与可编程性难 | 已批准先例/III期新胶 | IKZF/RBM39 |
+| PROTAC | 胞内蛋白 | E3–蛋白酶体 | 异双功能小分子 | 事件驱动、移除支架 | 大分子/通透/E3依赖 | 已获批（2026，vepdegestrant） | ER/AR/BTK |
+| 分子胶 | 胞内蛋白 | E3–蛋白酶体 | 单价小分子 | 较小、口服友好 | 发现与可编程性难 | IMiD已批准；首个CELMoD 2026加速批准 | IKZF/RBM39 |
 | LYTAC | 胞外/膜蛋白 | 溶酶体受体 | 抗体/糖肽嵌合 | 拓展胞外靶点 | 组织受体表达与大分子递送 | 临床前 | EGFR/PD-L1等研究 |
 | AbTAC/PROTAB | 膜蛋白 | 膜E3 | 双特异抗体 | 抗体选择性 | 可用膜E3有限 | 临床前 | PD-L1等 |
 | ATTEC | 蛋白/聚集 | LC3–自噬 | 双功能小分子 | 非蛋白酶体底物 | 自噬通量和选择性 | 临床前 | 突变蛋白/聚集体 |
@@ -150,7 +152,38 @@ LYTAC（Lysosome-Targeting Chimera）把胞外或膜蛋白连接到溶酶体运�
 | RIBOTAC | RNA | 内源RNase | RNA配体–RNase招募 | 直达RNA功能 | RNA结构、递送与脱靶 | 临床前 | 致癌RNA/重复序列 |
 | DAC/Degrader-antibody conjugate | 特定细胞内蛋白 | 抗体递送+胞内降解 | 抗体偶联降解载荷 | 改善细胞选择性 | 内吞释放、载荷效力和CMC | I期 | ORM-5029 |
 
-> **临床/研究亮点：** **Vepdegestrant把PROTAC带入III期。**其关键问题不再是“能否降解ER”，而是在人群选择、既往CDK4/6治疗和ESR1突变背景下，能否相对标准内分泌药带来有临床意义的PFS，并维持可接受口服安全性。
+> **临床/研究亮点：** **Vepdegestrant把PROTAC带到获批终点。**VERITAC-2在既往CDK4/6抑制剂联合内分泌治疗后的ER+/HER2−晚期乳腺癌中比较vepdegestrant与氟维司群：ESR1突变人群中位PFS 5.0对2.1个月（HR 0.57），ORR 19%对4%，OS尚不成熟；FDA于2026-05-01仅批准ESR1突变适应症，并配套Guardant360 CDx。它证明口服PROTAC可以通过注册级随机试验，也显示降解剂的优势首先出现在耐药突变人群，而非“对所有ER+患者都更强”。
+
+## 07.6 2025下半年—2026年关键进展（截至2026-11-12）
+
+2026年是靶向蛋白降解从“临床概念验证”走到“监管获批”的分界年：异双功能PROTAC和CRBN分子胶各有首个产品获得FDA批准。本节汇总已核实的监管、临床与交易事件，并把同一ER赛道的竞争药物一并列出，以便评估降解剂的真实定位。
+
+### 表7-5：2025下半年—2026年靶向降解及相关竞争事件
+
+**已核实的监管、临床与交易事件（按日期）**
+
+| 日期 | 事件 | 类型 | 意义/备注 |
+| --- | --- | --- | --- |
+| 2025-09-25 | Imlunestrant（Inluriyo）获批ESR1m ER+/HER2−乳腺癌 | 竞争药物（口服SERD） | 口服SERD先于PROTAC进入ESR1突变后线 |
+| 2025-12-29 | J&J完成以30.5亿美元收购Halda Therapeutics | 交易 | 获得RIPTAC诱导邻近平台（非降解机制） |
+| 2026-02 | Cemsidomide II期MOMENTUM首例给药 | 临床进展 | C4计划2028年底前申报≥4线加速批准 |
+| 2026-03 | Mezigdomide III期SUCCESSOR-2中期阳性 | 关键III期数据 | ASCO 2026：PFS 18.0对8.3个月 |
+| 2026-05-01 | Vepdegestrant（Veppanu）获FDA批准 | 首个获批PROTAC | VERITAC-2 ESR1m PFS 5.0对2.1个月（HR 0.57）；早于PDUFA目标日约1个月 |
+| 2026-05-12 | Arvinas/Pfizer将Veppanu全球权益授权Rigel | 交易 | 8500万美元首付及过渡付款，至多3.2亿美元里程碑 |
+| 2026-08-13 | Iberdomide（Zenbexus）获FDA加速批准 | 首个获批CELMoD | EXCALIBER-RRMM MRD阴性CR 41%对21%（对DVd） |
+| 2026（Q3披露） | Bexobrutideg III期DAYBreak CLL-306启动 | 临床进展 | 对pirtobrutinib，约620例 |
+| 2026-09-04 | Camizestrant（Etcamah）加速批准 | 竞争药物（ctDNA引导SERD） | 在影像进展前按ESR1突变换药 |
+| 2026-09-18 | Imlunestrant+abemaciclib获批 | 竞争药物（SERD组合） | 口服SERD与CDK4/6i组合进入ESR1m后线 |
+| 2026-10 | Nurix终止NX-2127 | 管线收缩 | 聚焦bexobrutideg |
+| 2026-12-18（PDUFA） | Giredestrant+依维莫司（evERA）待决定 | 竞争药物（待批） | 截至2026-11-12尚无FDA决定 |
+
+> **临床/研究亮点：** **Iberdomide让“分子胶”从老药机制变成新药类别。**IMiD的CRBN机制是在上市后才被解释的；iberdomide则是按CRBN结合与IKZF1/3深度降解目标设计并获批的CELMoD。它以MRD阴性完全缓解率获得加速批准，延续了骨髓瘤领域把MRD作为早期终点的监管趋势，但最终价值仍取决于PFS和OS确证。
+
+**首个PROTAC获批证明了什么、没有证明什么。**Vepdegestrant的获批确认口服异双功能降解剂可以在随机III期中达到注册标准，700–1100 Da分子量并非口服给药的绝对障碍。但获益局限于ESR1突变人群，中位PFS绝对延长约3个月，与同期获批的口服SERD处于相近量级（跨试验比较仅供参考）；这说明在ER这类已有成熟配体的靶点上，“降解”本身尚未显示超越“拮抗+降解”型SERD的普遍优势。降解路线更大的差异化机会，仍在缺乏功能口袋、需要移除支架或对抑制剂耐药的靶点。
+
+**ER赛道的竞争决定降解剂的商业空间。**一年内ESR1突变后线出现SERD单药、SERD+CDK4/6抑制剂、ctDNA引导换药和PROTAC四类方案，且伴随诊断均为Guardant360 CDx。Vepdegestrant的位置将取决于组合数据、序贯顺序、支付方选择以及Rigel的商业化执行，而不只是单药PFS。
+
+**BTK降解剂与CELMoD进入注册阶段，平台公司收缩聚焦。**BTK降解剂已进入头对头III期：BeOne的tacabrutideg（BGB-16673）包括与pirtobrutinib比较的III期，Nurix的bexobrutideg同时以关键II期DAYBreak CLL-201支持加速批准、以III期DAYBreak CLL-306（对pirtobrutinib）支持完全批准，说明降解剂必须证明优于非共价BTK抑制剂，而不只是“能覆盖耐药突变”。CELMoD方面，iberdomide已获批，mezigdomide在SUCCESSOR-2中取得PFS获益，但骨髓抑制明显更重。与此同时，Arvinas/Pfizer把首个获批PROTAC的全球商业化交给Rigel，Kymera、C4和Nurix都缩减了肿瘤降解管线，说明“首个获批”并未自动带来平台估值或商业化能力。BTK降解剂III期编号（CaDAnCe-302/303/304）在不同来源中不一致，以注册信息为准 [待核实]。
 
 ## 主要参考来源
 
@@ -160,8 +193,30 @@ LYTAC（Lysosome-Targeting Chimera）把胞外或膜蛋白连接到溶酶体运�
 - Burslem GM, Crews CM. Proteolysis-Targeting Chimeras as Therapeutics and Tools for Biological Discovery. Cell. 2020;181:102–114. [DOI](https://doi.org/10.1016/j.cell.2019.11.031)
 - Alabi SB, Crews CM. Major advances in targeted protein degradation: PROTACs, LYTACs and MADTACs. J Biol Chem. 2021;296:100647. [DOI](https://doi.org/10.1016/j.jbc.2021.100647)
 - Nurix Therapeutics. FDA Orphan Drug Designation for Bexobrutideg (NX-5948). 2025. [Company primary source](https://ir.nurixtx.com/news-releases/news-release-details/nurix-announces-us-fda-orphan-drug-designation-granted/)
+- U.S. FDA. FDA approves vepdegestrant for ER-positive, HER2-negative, ESR1-mutated advanced or metastatic breast cancer. 2026. [FDA](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-vepdegestrant-er-positive-her2-negative-esr1-mutated-advanced-or-metastatic-breast)
+- Consultant360. FDA approves vepdegestrant (Veppanu) for ESR1-mutated ER-positive, HER2-negative advanced breast cancer. 2026. [News](https://www.consultant360.com/fda-alerts/fda-approves-vepdegestrant-veppanu-esr1-mutated-er-positive-her2-negative-advanced)
+- Targeted Oncology. May 2026 FDA oncology actions at a glance. 2026. [News](https://www.targetedonc.com/view/may-2026-fda-oncology-actions-at-a-glance)
+- Blood Cancer United. FDA approves first-of-its-kind treatment for multiple myeloma (iberdomide). 2026. [News](https://bloodcancerunited.org/resources/newsroom/fda-approves-first-its-kind-treatment-multiple-myeloma)
+- Targeted Oncology. August 2026 in oncology: a look back at FDA approvals and decisions. 2026. [News](https://www.targetedonc.com/view/august-2026-in-oncology-a-look-back-at-fda-approvals-and-decisions)
+- U.S. FDA. FDA approves imlunestrant for ER-positive, HER2-negative, ESR1-mutated advanced or metastatic breast cancer. 2025. [FDA](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-imlunestrant-er-positive-her2-negative-esr1-mutated-advanced-or-metastatic-breast)
+- CancerNetwork. FDA approves camizestrant for ESR1-mutated HR+/HER2− advanced breast cancer. 2026. [News](https://www.cancernetwork.com/view/fda-approves-camizestrant-for-esr1-mutated-hr-her2-advanced-breast-cancer)
+- Roche. FDA accepts New Drug Application for giredestrant in ESR1-mutated, ER-positive advanced breast cancer. 2026. [Press release](https://www.roche.com/media/releases/med-cor-2026-02-20)
+- Targeted Oncology. FDA approves iberdomide, first CELMoD, in relapsed multiple myeloma. 2026. [News](https://www.targetedonc.com/view/fda-approves-iberdomide-first-celmod-relapsed-multiple-myeloma)
+- International Myeloma Foundation. FDA accelerated approval of iberdomide-dara-dex for RRMM. 2026. [News](https://www.myeloma.org/news-events/multiple-myeloma-news/fda-accelerated-approval-iberdomide-dara-dex-rrmm)
+- Bristol Myers Squibb. CELMoD mezigdomide reduces risk of disease progression or death by more than 50% vs standard of care in RRMM (SUCCESSOR-2). 2026. [Press release](https://www.biospace.com/press-releases/bristol-myers-squibb-announces-celmod-mezigdomide-reduces-risk-of-disease-progression-or-death-by-more-than-50-vs-standard-of-care-in-relapsed-or-refractory-multiple-myeloma)
+- ClinicalTrials.gov. Golcadomide plus R-CHOP vs placebo plus R-CHOP in high-risk LBCL (GOLSEEK-1), NCT06356129. [Registry](https://clinicaltrials.gov/study/NCT06356129)
+- ClinicalTrials.gov. BMS-986365 vs investigator's choice in mCRPC (rechARge), NCT06764485. [Registry](https://clinicaltrials.gov/study/NCT06764485)
+- Fierce Biotech. Novartis pays $150M for Arvinas' phase 3-ready prostate cancer protein degrader. 2024. [News](https://www.fiercebiotech.com/biotech/novartis-pays-150m-arvinas-phase-3-ready-prostate-cancer-protein-degrader)
+- Arvinas. Arvinas and Pfizer enter into a transaction with Rigel Pharmaceuticals for the exclusive global rights of VEPPANU. 2026. [Press release](https://ir.arvinas.com/news-releases/news-release-details/arvinas-and-pfizer-enter-transaction-rigel-pharmaceuticals)
+- Johnson & Johnson. Johnson & Johnson completes acquisition of Halda Therapeutics. 2025. [Press release](https://www.jnj.com/media-center/press-releases/johnson-johnson-completes-acquisition-of-halda-therapeutics-and-its-novel-platform-to-revolutionize-cancer-treatment-and-enable-next-generation-oral-therapies)
+- Nurix Therapeutics. Nurix outlines 2026 goals and objectives for advancing bexobrutideg. 2026. [Press release](https://ir.nurixtx.com/news-releases/news-release-details/nurix-therapeutics-outlines-2026-goals-and-objectives-advancing)
+- Nurix Therapeutics. Third quarter 2026 financial results and corporate update. 2026. [Press release](https://finviz.com/news/401394/nurix-therapeutics-reports-third-quarter-2026-financial-results-and-provides-corporate-update)
+- BeOne Medicines. Pipeline (tacabrutideg/BGB-16673). 2026. [Company primary source](https://beonemedicines.com/science/pipeline/)
+- C4 Therapeutics. Second quarter 2026 financial results and recent business highlights. 2026. [Press release](https://ir.c4therapeutics.com/news-releases/news-release-details/c4-therapeutics-reports-second-quarter-2026-financial-results)
+- Fierce Biotech. C4 Therapeutics halts BRAF degrader work to save cash for cemsidomide. 2025. [News](https://www.fiercebiotech.com/biotech/c4-therapeutics-halts-braf-degrader-work-save-cash-cemsidomide)
+- Fierce Biotech. Kymera zeros in on immunology, seeks partners for cancer candidates. 2024. [News](https://www.fiercebiotech.com/biotech/kymera-zeros-immunology-seeks-partners-cancer-candidates)
 
 
 ---
 
-内容版本：2025.Q2。下次更新建议：2025.Q4，重点复核 FDA 标签、临床阶段和公司交易状态。
+内容版本：2026.Q4（证据截止2026-11-12）。下次更新建议：2027.Q2，重点复核 FDA 标签、临床阶段和公司交易状态。

@@ -1,6 +1,6 @@
 # 第11章：新抗原与个性化癌症疫苗
 
-> OncoAtlas 癌症治疗前沿知识数据库 · 内容版本：2025.Q2 · 证据截止：2025-06-30。
+> OncoAtlas 癌症治疗前沿知识数据库 · 内容版本：2026.Q4 · 证据截止：2026-11-12。
 
 ## 学习目标
 
@@ -9,6 +9,7 @@
 - 理解临床里程碑与关键数据的核心概念、证据边界与临床转化逻辑。
 - 理解共享肿瘤抗原的核心概念、证据边界与临床转化逻辑。
 - 理解疫苗与免疫治疗联合的核心概念、证据边界与临床转化逻辑。
+- 理解2026年首个III期阳性结果（INTerpath-001）与同期多项阴性/终止研究并存的核心概念、证据边界与临床转化逻辑。
 
 ## 章节导航
 
@@ -65,24 +66,29 @@ mRNA平台可把多个长表位串联编码，患者细胞翻译后进入MHC-I�
 
 ## 11.3 临床里程碑与关键数据：免疫原性之后看复发
 
-KEYNOTE-942是一项开放标签随机IIb期研究，将完全切除的高风险IIIb–IV期皮肤黑色素瘤患者按约2:1分配至个体化mRNA-4157/V940+pembrolizumab或pembrolizumab。V940根据患者测序编码最多34个新抗原。研究以宽松的II期α阈值设计，组合组复发或死亡HR为0.561（95% CI 0.309–1.017；双侧p=0.053），18个月RFS为79%对62%。结果支持III期，而不是直接等同监管确证。
+KEYNOTE-942是一项开放标签随机IIb期研究，将完全切除的高风险IIIb–IV期皮肤黑色素瘤患者按约2:1分配至个体化mRNA-4157/V940+pembrolizumab或pembrolizumab。V940根据患者测序编码最多34个新抗原。研究以宽松的II期α阈值设计，组合组复发或死亡HR为0.561（95% CI 0.309–1.017；双侧p=0.053），18个月RFS为79%对62%。结果支持III期，而不是直接等同监管确证。该研究的五年随访（数据截止2025-12-15，157例，中位随访60.3个月）于2026年ASCO报告并发表于JCO：RFS HR为0.510（95% CI 0.294–0.887），DMFS HR为0.411（95% CI 0.200–0.843），总生存HR为0.471（95% CI 0.165–1.345）但未达统计学显著且数据不成熟；五年分析为描述性，不改变II期的统计定位。
 
-INTerpath-001（NCT05933577）是约1,089例、随机双盲、安慰剂与活性对照III期研究，比较V940+pembrolizumab与安慰剂+pembrolizumab。主要完成时间较远，当前不能把II期新闻更新写成获批疗法。肺癌、肾癌和膀胱癌等扩展研究还会检验不同突变谱、术后窗口和ICI背景下的可复制性。
+INTerpath-001（NCT05933577）是随机双盲III期研究，把1,137例完全切除的IIB–IV期皮肤黑色素瘤、未接受过系统治疗的患者按2:1分配至intismeran autogene（即V940/mRNA-4157）+pembrolizumab或安慰剂+pembrolizumab。2026-08-19，Merck与Moderna宣布该研究在预设中期分析达到主要终点RFS与关键次要终点DMFS；2026-10的ESMO详细数据显示：中位随访24.6个月时RFS HR为0.58（95% CI 0.45–0.75，p<0.001），事件为136例（18.0%）对111例（29.2%），2年RFS为82.2%对70%；DMFS HR为0.62（95% CI 0.45–0.85，p=0.002），2年DMFS为88.5%对80.2%；总生存HR为0.77（95% CI 0.45–1.31，p=0.33），尚不成熟。预设的“6个月后”敏感性分析HR为0.42（95% CI 0.30–0.58），与疫苗需要时间建立免疫的机制假设一致。这是个体化癌症疫苗首个III期阳性结果，意味着该模式从“支持确证”进入“已获确证（RFS层面）”；但总生存未成熟、随访仅两年，且该结论仅适用于切除后黑色素瘤加pembrolizumab的特定场景。肺癌、肾癌和膀胱癌等INTerpath扩展研究仍将检验不同突变谱、术后窗口和ICI背景下的可复制性。
 
-在切除胰腺导管腺癌的I期研究中，autogene cevumeran依次与atezolizumab和mFOLFIRINOX联合。16名接种患者中8名产生高强度新生新抗原特异T细胞；延长随访显示应答者中位RFS未达到，非应答者为13.4个月（探索性比较p=0.007）。样本极小、非随机且治疗多组件，结果证明可行性和免疫生物学，不足以确定疫苗单独造成生存差异。
+在切除胰腺导管腺癌的I期研究中，autogene cevumeran依次与atezolizumab和mFOLFIRINOX联合。16名接种患者中8名产生高强度新生新抗原特异T细胞；延长随访显示应答者中位RFS未达到，非应答者为13.4个月（探索性比较p=0.007）。样本极小、非随机且治疗多组件，结果证明可行性和免疫生物学，不足以确定疫苗单独造成生存差异。随机II期IMCODE003（NCT05968326，约260例，疫苗+atezolizumab+mFOLFIRINOX对mFOLFIRINOX，主要终点无病生存）仍在进行。
+
+同一平台在另一癌种给出了相反信号：2026-08-28，BioNTech宣布终止在ctDNA阳性、切除后结直肠癌中以autogene cevumeran单药对比观察的随机II期BNT122-01（NCT04486378），依据是独立数据安全监查委员会提示总生存出现数值失衡；公司表示未报告新的安全性信号，其他autogene cevumeran项目（包括胰腺癌II期）不受影响，详细数据将在适当时候公布。该研究与INTerpath-001的关键差异在于：它是疫苗单药、无ICI背景、以ctDNA阳性定义人群。这提示疫苗在微小残留病中的价值可能依赖检查点阻断提供的“放大器”，而不是单独成立。
 
 长肽NeoVax、RNA mutanome和胶质母细胞瘤GAPVAC等研究已证明个体化处方可诱导多克隆CD4/CD8反应。临床难点是免疫反应测试缺乏统一阈值：ELISpot、胞内细胞因子、四聚体、TCR扩增和肿瘤浸润回答不同问题。真正有说服力的机制链应显示疫苗特异克隆扩增、进入肿瘤、识别自然加工抗原并与微小残留病清除相关。
 
 ### 表11-2：个性化新抗原疫苗关键临床研究
 
-**十项代表性个体化新抗原疫苗研究**
+**十三项代表性个体化或共享新抗原疫苗研究（截至2026.Q4）**
 
 | 项目/试验 | 平台 | 癌种 | 组合 | 阶段 | 关键数据/问题 |
 | --- | --- | --- | --- | --- | --- |
-| KEYNOTE-942 | V940个体化mRNA | 切除黑色素瘤 | Pembrolizumab | IIb期 | RFS HR 0.561；18月79% vs 62% |
-| INTerpath-001 | V940 | 高风险黑色素瘤 | Pembrolizumab | III期 | 约1,089例确证研究 |
-| INTerpath-002 | V940 | 切除NSCLC | Pembrolizumab | III期 | 检验跨癌种复制 |
+| KEYNOTE-942 | V940个体化mRNA | 切除黑色素瘤 | Pembrolizumab | IIb期，五年随访已读出 | RFS HR 0.561（主分析）；五年RFS HR 0.510、DMFS HR 0.411 |
+| INTerpath-001 | Intismeran autogene（V940） | 高风险切除黑色素瘤 | Pembrolizumab | III期已达主要终点（2026-08/10） | 1,137例；RFS HR 0.58、DMFS HR 0.62；OS未成熟 |
+| INTerpath-002 | Intismeran autogene | 切除NSCLC | Pembrolizumab | III期进行中 | 检验跨癌种复制 |
 | NCT04161755 | Autogene cevumeran | 切除PDAC | Atezolizumab+mFOLFIRINOX | I期 | 8/16产生高强度T细胞反应 |
+| IMCODE003 / NCT05968326 | Autogene cevumeran | 切除PDAC | Atezolizumab+mFOLFIRINOX | 随机II期进行中 | 约260例，主要终点无病生存 |
+| BNT122-01 / NCT04486378 | Autogene cevumeran | ctDNA阳性切除CRC | 单药对比观察 | II期，2026-08终止 | DSMB提示总生存数值失衡 |
+| AMPLIFY-7P | ELI-002 7P共享KRAS两亲性疫苗 | 切除PDAC | 术后辅助 | II期，2026-06未达主要终点 | ITT人群DFS未达终点；R0事后亚组HR 0.65 |
 | IMCODE-001 | Autogene cevumeran | 晚期实体瘤 | ±Atezolizumab | I期 | 多表位CD4/CD8反应 |
 | NeoVax melanoma | 个体化长肽 | 黑色素瘤 | 佐剂/后续ICI | I期 | 持久多功能T细胞 |
 | GAPVAC-101 | 共享+个体化肽 | 胶质母细胞瘤 | 标准治疗 | I期 | 可行性与免疫原性 |
@@ -93,7 +99,7 @@ INTerpath-001（NCT05933577）是约1,089例、随机双盲、安慰剂与活性
 > **图示：个体化疫苗项目的证据成熟度**
 > 横轴为临床阶段，纵轴为证据维度综合教学评分，气泡大小为近似样本规模；不用于跨试验疗效排名。
 
-> **临床/研究亮点：** **KEYNOTE-942是“支持确证”而非“已经确证”。**RFS HR 0.561具有临床吸引力，但95% CI跨1且研究采用II期统计阈值；最终实践改变依赖正在进行的双盲III期INTerpath-001。
+> **临床/研究亮点：** **KEYNOTE-942曾是“支持确证”，INTerpath-001把它变成“已确证（RFS层面）”。**IIb期RFS HR 0.561的95% CI跨1且采用II期统计阈值，五年随访给出HR 0.510的一致方向；双盲III期INTerpath-001随后在1,137例中以RFS HR 0.58（95% CI 0.45–0.75，p<0.001）达到主要终点。但总生存HR 0.77（p=0.33）尚不成熟，获益也只在“切除后黑色素瘤联合pembrolizumab”这一场景得到验证。
 
 个体化突变抗原具有肿瘤特异性，共享肿瘤相关抗原则牺牲部分特异性换取现货规模。
 
@@ -104,6 +110,8 @@ INTerpath-001（NCT05933577）是约1,089例、随机双盲、安慰剂与活性
 WT1、端粒酶hTERT、survivin、MUC1和HER2也被广泛开发。HER2肽疫苗能诱导抗体或T细胞反应，但乳腺癌中HER2抗体、ADC和TKI已建立强效标准，疫苗必须证明额外临床价值。正常组织表达意味着高亲和TCR或强佐剂可能产生“靶向正确、组织错误”的毒性。
 
 共享热点突变处于TAA与私人新抗原之间，例如*KRAS* G12D、*TP53* R175H和*PIK3CA*热点既是肿瘤特异，又在多名患者复现。但每个肽仍受特定HLA限制，实际覆盖率是突变频率×HLA频率×表达/呈递概率。仓储式疫苗可显著缩短TAT，代价是抗原数量和人群覆盖有限。
+
+2026年共享抗原路线出现两个重要的阴性读出。Elicio的ELI-002 7P（针对七种KRAS热点肽的两亲性疫苗）在切除后胰腺癌辅助治疗的II期AMPLIFY-7P（n=144，24个美国中心）未达到预设的意向治疗人群无病生存主要终点（2026-06-15）；事后分析显示R0完全切除亚组HR为0.65（p=0.048，中位DFS 23.8对12.8个月，n=121），且突变KRAS特异T细胞反应与DFS强相关（HR 0.22，p<0.0001，n=90），但试验组中R1切除（预后更差）比例为19%对10%，存在基线失衡。公司据此把注册性III期限定在R0人群并增加给药。IO Biotech的IO102-IO103（靶向IDO与PD-L1的免疫调节肽疫苗）联合pembrolizumab的III期研究中位PFS为19.4个月对11.0个月，HR 0.77、p=0.0558，以极小差距未达统计学显著；FDA此后建议不要提交BLA，公司于2026-01-21宣布评估包括合并、资产出售或清算在内的战略方案并大幅裁员，有报道称最终进入清算`[待核实]`。这两个案例共同说明：共享抗原疫苗的“临床有意义但统计不显著”结果在当前监管环境下不足以支持批准，而事后亚组只能用于设计下一项研究。
 
 ### 表11-3：共享肿瘤抗原与疫苗开发状态
 
@@ -121,7 +129,7 @@ WT1、端粒酶hTERT、survivin、MUC1和HER2也被广泛开发。HER2肽疫苗�
 | HER2 | 过表达受体 | 乳腺、胃癌 | 多上皮低水平 | 肽/DC | 需超越成熟靶向药 |
 | PSA | 组织分化抗原 | 前列腺癌 | 正常前列腺 | 痘病毒/DNA | 器官特异但非肿瘤特异 |
 | Mesothelin | 过表达抗原 | 间皮瘤、胰腺癌 | 间皮低水平 | 疫苗/细胞治疗 | 可溶性抗原与异质性 |
-| *KRAS* G12D | 共享新抗原 | 胰腺/结直肠癌 | 无突变正常表达 | 疫苗/TCR | 特定HLA覆盖 |
+| *KRAS* G12D | 共享新抗原 | 胰腺/结直肠癌 | 无突变正常表达 | 疫苗/TCR；ELI-002 7P已读出II期 | 特定HLA覆盖；II期ITT人群DFS未达终点 |
 | *TP53*热点 | 共享新抗原 | 多癌种 | 突变特异 | 仓储疫苗/TCR | HLA和自然呈递 |
 
 无论是私人还是共享抗原，疫苗通常需要解除肿瘤中的检查点和呈递障碍才能维持功能。
@@ -138,23 +146,52 @@ WT1、端粒酶hTERT、survivin、MUC1和HER2也被广泛开发。HER2肽疫苗�
 
 ### 表11-4：癌症疫苗主要公司、平台与联合策略
 
-**十一个疫苗开发主体的技术平台与临床重点**
+**十三个疫苗开发主体的技术平台与临床重点（截至2026.Q4）**
 
 | 公司/机构 | 平台 | 代表项目 | 主要联合 | 领先阶段 | 差异化 |
 | --- | --- | --- | --- | --- | --- |
-| Moderna/MSD | 个体化mRNA-LNP | V940 | Pembrolizumab | III期 | 最多34个新抗原 |
-| BioNTech/Genentech | iNeST mRNA-lipoplex | Autogene cevumeran | ICI+化疗 | II期 | 静脉APC靶向 |
+| Moderna/MSD | 个体化mRNA-LNP | Intismeran autogene（V940） | Pembrolizumab | III期已达主要终点（2026） | 最多34个新抗原；首个III期阳性个体化疫苗 |
+| BioNTech/Genentech | iNeST mRNA-lipoplex | Autogene cevumeran | ICI+化疗 | 胰腺癌II期进行中；CRC II期已终止 | 静脉APC靶向 |
 | Gritstone bio | 个体化病毒载体 | GRANITE | ICI+标准治疗 | II期/公司风险 | Prime-boost |
 | Nouscom | 猿腺病毒/MVA | NOUS-PEV | ICI | I期 | 个体化载体 |
 | NEC/Transgene | AI+病毒载体 | TG4050 | 标准治疗/ICI | II期 | AI表位选择 |
 | Geneos | 个体化DNA | GNOS-PV02 | Pembrolizumab | I/II期 | DNA+电穿孔 |
-| Evaxion | AI设计疫苗 | EVX-01 | Pembrolizumab | II期 | 预测平台 |
+| Evaxion | AI设计疫苗 | EVX-01 | Pembrolizumab | II期（两年数据已读出，三年数据待公布） | 预测平台；ORR 12/16，81%–86%靶点诱导T细胞反应 |
+| Elicio Therapeutics | 两亲性共享热点疫苗 | ELI-002 7P | 术后辅助 | II期未达主要终点，计划III期 | 淋巴结靶向；限定R0人群 |
+| IO Biotech | 免疫调节肽疫苗 | IO102-IO103 | Pembrolizumab | III期PFS未达显著；公司进入战略方案评估 | 靶向IDO/PD-L1而非肿瘤抗原 |
 | ISA Pharmaceuticals | 合成长肽 | ISA101b | ICI | II期 | HPV共享抗原 |
 | Ultimovacs | 端粒酶肽 | UV1 | ICI | II期；结果混合 | 现货共享抗原 |
 | NCI | 个体化肽/T细胞 | 多项学术研究 | ICI/TIL | 探索 | 机制深度 |
 | Dana-Farber/Broad | 长肽NeoVax | NeoVax | ICI | I期 | 持久多克隆免疫 |
 
 > **临床/研究亮点：** **胰腺癌研究证明“冷肿瘤”也能被个体化疫苗启动。**16名接种患者中8名产生高强度新生T细胞反应，并可持续多年；但非随机、小样本和多组件治疗要求后续研究确认临床因果。
+
+## 11.6 2025下半年—2026年关键进展（截至2026-11-12）
+
+这一年半是新抗原疫苗领域“第一次分层”的时期：个体化mRNA加检查点阻断在切除后黑色素瘤中取得首个III期阳性结果，而疫苗单药、共享抗原肽疫苗和部分HPV疫苗路线相继出现阴性或终止。阳性与阴性同时出现，恰好让“疫苗在什么条件下有效”这一问题变得可回答。下表汇总可核实的关键事件。
+
+### 表11-5：新抗原与癌症疫苗关键进展（2025-07至2026-11）
+
+**十项可核实的临床与公司事件**
+
+| 日期 | 事件 | 类型 | 意义/备注 |
+| --- | --- | --- | --- |
+| 2025下半年 | FDA建议IO Biotech不要就IO102-IO103提交BLA | 监管 | III期中位PFS 19.4对11.0个月，HR 0.77、p=0.0558，差距极小仍不足以支持批准 |
+| 2025-09 ESMO | EVX-01两年II期数据：16例中12例客观缓解、4例完全缓解 | 临床 | 应答者中92%在两年时仍在缓解；81%靶点诱导特异T细胞反应（公司口径，小样本） |
+| 2026-01-21 | IO Biotech宣布评估合并、资产出售或清算等战略方案并裁员 | 公司 | 后续有清算报道，需核实；提示单一资产疫苗公司的脆弱性 |
+| 2026-01 | FDA授予BNT113（HPV16靶向mRNA疫苗）快速通道资格 | 监管 | 依据AHEAD-MERIT早期数据 |
+| 2026-06 ASCO / JCO | KEYNOTE-942五年随访：RFS HR 0.510、DMFS HR 0.411 | 临床 | 中位随访60.3个月；OS HR 0.471但不显著；分析为描述性 |
+| 2026-06-15 | ELI-002 7P的II期AMPLIFY-7P未达ITT人群DFS主要终点 | 临床 | R0事后亚组HR 0.65（p=0.048）；计划限定R0人群开展III期 |
+| 2026-08-19 | INTerpath-001顶线：达到主要终点RFS与关键次要终点DMFS | 临床 | 预设中期分析；1,137例，2:1随机 |
+| 2026-08-28 | BioNTech终止autogene cevumeran在ctDNA阳性切除CRC的II期研究 | 临床 | DSMB提示总生存数值失衡；疫苗单药、无ICI背景 |
+| 2026-10-13 | BNT113联合pembrolizumab在AHEAD-MERIT未达PFS共同主要终点 | 临床 | 独立数据监查委员会建议研究继续，以总生存为第二个共同主要终点 |
+| 2026-10 ESMO | INTerpath-001详细数据：RFS HR 0.58、2年RFS 82.2%对70% | 临床 | DMFS HR 0.62；OS HR 0.77（p=0.33）未成熟；预设6个月后敏感性分析HR 0.42 |
+
+最重要的结构性变化是“证据等级”的跃升。在2025.Q2版本中，这一领域最强的证据仍是KEYNOTE-942的IIb期HR 0.561（95% CI跨1）；到2026年11月，INTerpath-001已在1,137例随机双盲人群中给出RFS HR 0.58（95% CI 0.45–0.75，p<0.001）与DMFS HR 0.62（p=0.002）。写作与教学上应相应调整：个体化新抗原疫苗不再是“仅有免疫原性与II期信号”的概念，而是在特定场景（完全切除的高风险黑色素瘤、联合pembrolizumab）拥有III期无复发生存证据的模式。但总生存HR 0.77（p=0.33）尚不成熟，制造周转时间、支付与可及性问题也未被试验解答。
+
+与此同时的多项阴性结果划出了适用边界。autogene cevumeran在ctDNA阳性结直肠癌以单药对比观察被终止（总生存数值失衡）；ELI-002 7P在胰腺癌辅助治疗未达ITT主要终点；IO102-IO103以p=0.0558之差未达显著并直接导致公司进入战略处置；BNT113未达PFS共同主要终点。把这些与INTerpath-001并列可以看出三个共同点：阳性结果都带ICI背景、都在肿瘤负荷极低的术后窗口、且都以复发而非缓解为终点。反之，疫苗单药、晚期高负荷或仅以免疫调节（而非肿瘤抗原）为机制的设计，到目前为止尚未产生阳性III期。
+
+对新抗原选择与平台研发的含义是：下一阶段的竞争点不再是“能否诱导T细胞反应”（多个平台均已证明，EVX-01报告81%–86%的靶点可诱导反应），而是“诱导的克隆能否在ICI背景下清除微小残留病”。这要求把ctDNA动力学、克隆性筛选和给药时序一起纳入试验设计；INTerpath-001预设的“6个月后”敏感性分析（HR 0.42）就提示免疫建立需要时间，早期复发事件会稀释观察到的效应。这类设计细节在阅读后续读出时比单一HR更值得关注。
 
 ## 主要参考来源
 
@@ -164,8 +201,17 @@ WT1、端粒酶hTERT、survivin、MUC1和HER2也被广泛开发。HER2肽疫苗�
 - Sahin U, et al. Personalized RNA mutanome vaccines mobilize poly-specific therapeutic immunity against cancer. Nature. 2017;547:222–226. [DOI](https://doi.org/10.1038/nature23003)
 - Ott PA, et al. An immunogenic personal neoantigen vaccine for patients with melanoma. Nature. 2017;547:217–221. [DOI](https://doi.org/10.1038/nature22991)
 - ClinicalTrials.gov. INTerpath-001: V940 plus pembrolizumab in high-risk melanoma, NCT05933577. [Registry](https://clinicaltrials.gov/study/NCT05933577)
+- CancerNetwork. INTerpath-001 Data Detail Survival, Subgroup, and Safety Findings in Melanoma (ESMO 2026). 2026. [Press release](https://www.cancernetwork.com/view/interpath-001-data-detail-survival-subgroup-and-safety-findings-in-melanoma)
+- CancerNetwork. Novel Cancer Vaccine Meets Primary, Secondary End Points in Resected Melanoma. 2026. [Press release](https://www.cancernetwork.com/view/novel-cancer-vaccine-meets-primary-secondary-end-points-in-resected-melanoma)
+- Targeted Oncology. Adjuvant Intismeran Plus Pembrolizumab Shows Durable Benefit at 5 Years in Melanoma (KEYNOTE-942). 2026. [Press release](https://www.targetedonc.com/view/adjuvant-intismeran-pembro-shows-durable-benefit-at-5-years-in-melanoma)
+- CancerNetwork. Autogene Cevumeran Trial Terminated in Resected Colorectal Cancer. 2026. [Press release](https://www.cancernetwork.com/view/autogene-cevumeran-trial-terminated-in-resected-colorectal-cancer)
+- CancerNetwork. BNT113 Plus Pembrolizumab Misses PFS End Point in HPV16+ Head and Neck Cancer. 2026. [Press release](https://www.cancernetwork.com/view/bnt113-pembrolizumab-misses-pfs-end-point-in-hpv16-head-and-neck-cancer)
+- Elicio Therapeutics. Elicio Therapeutics Reports Results from Phase 2 AMPLIFY-7P Study and Outlines Refined Phase 3 Development Strategy for ELI-002 7P. 2026. [Press release](https://www.biospace.com/press-releases/elicio-therapeutics-reports-results-from-phase-2-amplify-7p-study-and-outlines-refined-phase-3-development-strategy-for-eli-002-7p-in-adjuvant-pancreatic-cancer)
+- European Biotechnology. IO Biotech weighs strategic options months after FDA advises against melanoma vaccine filing. 2026. [Press release](https://european-biotechnology.com/latest-news/io-biotech-weighs-strategic-options-months-after-fda-advises-against-melanoma-vaccine-filing/)
+- Evaxion Biotech. Evaxion reports 75% Objective Response Rate in phase 2 trial with AI-designed personalized cancer vaccine EVX-01. 2025. [Press release](https://www.biospace.com/press-releases/evaxion-reports-75-objective-response-rate-in-phase-2-trial-with-ai-designed-personalized-cancer-vaccine-evx-01)
+- ClinicalTrials.gov. IMCODE003: Adjuvant autogene cevumeran plus atezolizumab and mFOLFIRINOX in resected PDAC, NCT05968326. [Registry](https://clinicaltrials.gov/study/NCT05968326)
 
 
 ---
 
-内容版本：2025.Q2。下次更新建议：2025.Q4，重点复核 FDA 标签、临床阶段和公司交易状态。
+内容版本：2026.Q4（证据截止2026-11-12）。下次更新建议：2027.Q2，重点复核 FDA 标签、临床阶段和公司交易状态。

@@ -1,6 +1,6 @@
 # 第02章：肿瘤免疫治疗——免疫检查点抑制剂
 
-> OncoAtlas 癌症治疗前沿知识数据库 · 内容版本：2025.Q2 · 证据截止：2025-06-30。
+> OncoAtlas 癌症治疗前沿知识数据库 · 内容版本：2026.Q4 · 证据截止：2026-11-12。
 
 ## 学习目标
 
@@ -9,6 +9,7 @@
 - 理解临床应用与疗效的核心概念、证据边界与临床转化逻辑。
 - 理解生物标志物与患者选择的核心概念、证据边界与临床转化逻辑。
 - 理解免疫相关不良反应的核心概念、证据边界与临床转化逻辑。
+- 掌握2025下半年—2026年ICI向围手术期、早期治愈与器官保留场景扩展的关键批准，以及TIGIT/LAG-3等新检查点的分化。
 
 ## 章节导航
 
@@ -33,7 +34,7 @@ LAG-3与MHC-II及FGL1等配体相关，常与PD-1共同标记慢性刺激下的�
 
 ## 02.2 已批准免疫检查点抑制剂全览
 
-截至2025年第二季度，PD-1/PD-L1与CTLA-4药物已经覆盖数十个适应症，但“同靶点”不等于标签可互换。抗体亚型、Fc设计、剂量、联合伙伴和证据包不同；同一药物也可能在某癌种要求PD-L1阈值，在另一癌种不要求。下表将美国FDA状态和其他主要监管机构状态分开，避免把中国或欧盟批准误写成FDA批准。具体用药必须以最新版标签为准。
+截至2026年第四季度（证据截止2026-11-12），PD-1/PD-L1与CTLA-4药物已经覆盖数十个适应症，并持续向围手术期、早期治愈和器官保留场景扩展；但“同靶点”不等于标签可互换。抗体亚型、Fc设计、剂量、联合伙伴和证据包不同；同一药物也可能在某癌种要求PD-L1阈值，在另一癌种不要求。下表将美国FDA状态和其他主要监管机构状态分开，避免把中国或欧盟批准误写成FDA批准。具体用药必须以最新版标签为准。2025-09获批的皮下帕博利珠单抗（Keytruda Qlex）与此前的Tecentriq Hybreza、Opdivo Qvantig一样属于新剂型，表中并入原分子行。
 
 ### 表2-1：主要已批准ICI药物全览
 
@@ -42,16 +43,16 @@ LAG-3与MHC-II及FGL1等配体相关，常与PD-1共同标记慢性刺激下的�
 | 药物/商品名/代码 | 靶点 | 公司 | 首次批准 | 监管状态 | 代表适应症 | 标志物/CDx | 关键试验 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Ipilimumab / Yervoy / MDX-010 | CTLA-4 | BMS | 2011 | FDA | 黑色素瘤；多癌种联合 | 依组合适应症 | MDX010-20 |
-| Pembrolizumab / Keytruda / MK-3475 | PD-1 | MSD | 2014 | FDA | NSCLC、黑色素瘤、HNSCC、泛癌种等 | PD-L1、MSI/dMMR、TMB依标签 | KEYNOTE系列 |
-| Nivolumab / Opdivo / BMS-936558 | PD-1 | BMS | 2014 | FDA | 黑色素瘤、NSCLC、RCC、胃癌等 | 依适应症 | CheckMate系列 |
-| Atezolizumab / Tecentriq / MPDL3280A | PD-L1 | Roche | 2016 | FDA | NSCLC、SCLC、HCC等 | 部分标签用SP142/SP263 | IMpower/IMbrave |
+| Pembrolizumab / Keytruda / MK-3475 | PD-1 | MSD | 2014 | FDA（皮下Keytruda Qlex 2025-09） | NSCLC、黑色素瘤、HNSCC、MIBC围手术期、铂耐药卵巢癌、TNBC一线联合ADC、泛癌种等 | PD-L1、MSI/dMMR、TMB≥13 mut/Mb（2026-10起）依标签 | KEYNOTE系列（含KEYNOTE-905/B15/B96） |
+| Nivolumab / Opdivo / BMS-936558 | PD-1 | BMS | 2014 | FDA | 黑色素瘤、NSCLC、RCC、胃癌、初治晚期cHL联合AVD（2026-03）等 | 依适应症 | CheckMate系列；SWOG S1826 |
+| Atezolizumab / Tecentriq / MPDL3280A | PD-L1 | Roche | 2016 | FDA | NSCLC、SCLC（含联合lurbinectedin维持）、HCC、ctDNA阳性MIBC辅助（2026-05）、III期dMMR结肠癌辅助（2026-10）等 | 部分标签用SP142/SP263；MIBC需ctDNA MRD（Signatera CDx）；结肠癌需dMMR | IMpower/IMbrave/IMforte/IMvigor011/ATOMIC |
 | Avelumab / Bavencio / MSB0010718C | PD-L1 | Merck KGaA/Pfizer | 2017 | FDA | MCC、尿路上皮癌维持、RCC联合 | 通常无强制CDx | JAVELIN |
-| Durvalumab / Imfinzi / MEDI4736 | PD-L1 | AstraZeneca | 2017 | FDA | III期NSCLC、SCLC、胆道癌、HCC | 依适应症 | PACIFIC/CASPIAN/TOPAZ-1 |
-| Cemiplimab / Libtayo / REGN2810 | PD-1 | Regeneron | 2018 | FDA | 皮肤鳞癌、基底细胞癌、NSCLC | NSCLC单药按PD-L1 | EMPOWER |
-| Dostarlimab / Jemperli / TSR-042 | PD-1 | GSK | 2021 | FDA | 子宫内膜癌、dMMR实体瘤 | dMMR/MSI-H依标签 | GARNET/RUBY |
+| Durvalumab / Imfinzi / MEDI4736 | PD-L1 | AstraZeneca | 2017 | FDA | III期NSCLC、SCLC、胆道癌、HCC、围手术期胃/GEJ癌（2025-11）、BCG初治高危NMIBC（2026-05） | 依适应症 | PACIFIC/CASPIAN/TOPAZ-1/MATTERHORN/POTOMAC |
+| Cemiplimab / Libtayo / REGN2810 | PD-1 | Regeneron | 2018 | FDA | 皮肤鳞癌（含2025-10高危术后辅助）、基底细胞癌、NSCLC | NSCLC单药按PD-L1 | EMPOWER/C-POST |
+| Dostarlimab / Jemperli / TSR-042 | PD-1 | GSK | 2021 | FDA | 子宫内膜癌、dMMR实体瘤、dMMR/MSI-H局部晚期直肠癌（2026-10加速） | dMMR/MSI-H依标签 | GARNET/RUBY/AZUR-1 |
 | Retifanlimab / Zynyz / INCMGA00012 | PD-1 | Incyte | 2023 | FDA | MCC、肛管鳞癌 | 通常无强制CDx | POD1UM |
 | Toripalimab / Loqtorzi / JS001 | PD-1 | Junshi/Coherus | 2018/2023 | FDA 2023 | 鼻咽癌 | 无强制PD-L1 | JUPITER-02/POLARIS-02 |
-| Tislelizumab / Tevimbra / BGB-A317 | PD-1 | BeiGene | 2019/2024 | FDA 2024 | 食管鳞癌；全球多标签 | 依标签 | RATIONALE-302 |
+| Tislelizumab / Tevimbra / BGB-A317 | PD-1 | BeiGene | 2019/2024 | FDA 2024 | 食管鳞癌、胃/GEJ癌；HER2+胃食管腺癌一线联合zanidatamab（2026-08） | 依标签 | RATIONALE-302/305/306；HERIZON-GEA-01 |
 | Penpulimab / AK105 | PD-1 | Akeso | 2021/2025 | FDA 2025 | 鼻咽癌 | 无强制PD-L1 | AK105-304/202 |
 | Cosibelimab / Unloxcyt / CK-301 | PD-L1 | Checkpoint | 2024 | FDA | 晚期皮肤鳞癌 | 无强制CDx | CK-301-101 |
 | Nivolumab+Relatlimab / Opdualag | PD-1+LAG-3 | BMS | 2022 | FDA | 不可切除/转移性黑色素瘤 | 无强制LAG-3检测 | RELATIVITY-047 |
@@ -74,9 +75,9 @@ LAG-3与MHC-II及FGL1等配体相关，常与PD-1共同标记慢性刺激下的�
 
 黑色素瘤对免疫治疗高度敏感，但疗效与毒性存在梯度。PD-1单药可获得持久缓解，纳武利尤单抗加伊匹木单抗提高疾病控制深度，同时显著增加3–4级不良事件；纳武利尤单抗加瑞拉利单抗在RELATIVITY-047中将独立评审PFS中位数从纳武利尤单抗组约4.6个月提高至约10.1个月，提供了另一种双检查点路径。BRAF V600突变患者还需在靶向联合与免疫治疗之间考虑症状、疾病速度和后续治疗顺序。
 
-尿路上皮癌已经从后线ICI发展到维持和一线组合。JAVELIN Bladder 100确立含铂化疗未进展后阿维鲁单抗维持；EV-302则显示恩诺单抗维多汀（Enfortumab vedotin）联合帕博利珠单抗相对含铂化疗显著改善OS与PFS，把ADC与ICI前移到一线。头颈鳞癌中KEYNOTE-048按PD-L1 CPS分层选择帕博利珠单抗单药或联合化疗；胃/胃食管结合部癌的PD-L1阈值、HER2状态和地区标签必须同时考虑。
+尿路上皮癌已经从后线ICI发展到维持和一线组合。JAVELIN Bladder 100确立含铂化疗未进展后阿维鲁单抗维持；EV-302则显示恩诺单抗维多汀（Enfortumab vedotin）联合帕博利珠单抗相对含铂化疗显著改善OS与PFS，把ADC与ICI前移到一线。2025-11与2026-07，FDA又先后批准EV+帕博利珠单抗用于不适合与适合顺铂的肌层浸润性膀胱癌（Muscle-Invasive Bladder Cancer，**MIBC**）围手术期（KEYNOTE-905/EV-303、KEYNOTE-B15/EV-304），使这一组合从晚期一线进一步进入可治愈场景。头颈鳞癌中KEYNOTE-048按PD-L1 CPS分层选择帕博利珠单抗单药或联合化疗；胃/胃食管结合部癌的PD-L1阈值、HER2状态和地区标签必须同时考虑。
 
-MSI-H/dMMR泛癌种批准改变了按器官分科的监管范式。错配修复缺陷产生大量移码新抗原，提高免疫识别概率；但反应仍受抗原呈递、器官背景和既往治疗影响。“泛癌种”表示标签跨组织，不代表所有癌种具有相同缓解率。类似地，TMB-H适应症使用特定面板和阈值，临床解释应避免把不同平台的mut/Mb直接互换。
+MSI-H/dMMR泛癌种批准改变了按器官分科的监管范式。错配修复缺陷产生大量移码新抗原，提高免疫识别概率；但反应仍受抗原呈递、器官背景和既往治疗影响。“泛癌种”表示标签跨组织，不代表所有癌种具有相同缓解率。类似地，TMB-H适应症使用特定面板和阈值，临床解释应避免把不同平台的mut/Mb直接互换。2026-10-16，FDA将帕博利珠单抗TMB-H适应症由加速批准转为常规批准，但把阈值限定为≥13 mut/Mb，因为10至<13 mut/Mb人群的疗效未获确证——这是确证性证据反过来收窄生物标志物切点的典型案例。
 
 > **图示：代表性ICI研究ORR概览**
 > 数值为不同试验、线次和标志物人群的近似公开结果，只展示量级，不构成头对头比较；标签注明方案和研究。
@@ -189,22 +190,66 @@ ICI加ADC把靶向递送的细胞毒性与免疫解除抑制连接。恩诺单�
 
 ### 表2-6：新兴检查点靶点与临床管线
 
-**十个新兴免疫检查点或共刺激靶点的代表项目**
+**十二个新兴免疫检查点或共刺激靶点的代表项目**
 
-| 靶点 | 代表药物 | 公司 | 组合 | 阶段（2025.Q2） | 关键问题 |
+| 靶点 | 代表药物 | 公司 | 组合 | 阶段（截至2026.Q4） | 关键问题 |
 | --- | --- | --- | --- | --- | --- |
-| LAG-3 | Relatlimab | BMS | Nivolumab | 已批准 | 预测标志物与最优序贯 |
-| TIGIT | Domvanalimab | Arcus/Gilead | Zimberelimab | III期 | 多项阴性试验后的患者选择 |
-| TIGIT | Belrestotug | GSK/iTeos | Dostarlimab | III期 | Fc功能与CD226轴 |
+| LAG-3 | Relatlimab | BMS | Nivolumab | 已批准（晚期黑色素瘤）；辅助RELATIVITY-098未达RFS主要终点（2025-02） | 预测标志物与最优序贯 |
+| LAG-3 | Fianlimab | Regeneron | Cemiplimab | 一线黑色素瘤III期PFS未达统计学显著（2026-05）；对比Opdualag研究进行中 | 第二个LAG-3能否差异化 |
+| TIGIT | Domvanalimab | Arcus/Gilead | Zimberelimab | STAR-221（2025-12）与STAR-121（2026-04）均因无效终止 | 多项阴性试验后的患者选择 |
+| TIGIT | Belrestotug | GSK/iTeos | Dostarlimab | 已终止开发（2025-05，GALAXIES Lung-201 PFS未达标） | Fc功能与CD226轴 |
+| TIGIT | Tiragolumab/Vibostolimab | Roche/Merck | Atezolizumab/Pembrolizumab | 均已终止：Merck 2024-12（KEYVIBE-003/007达无效标准）；Roche 2025年移出管线 | TIGIT赛道整体未获验证 |
 | TIM-3 | Sabatolimab | Novartis | HMA等 | II期/调整 | 髓系肿瘤终点验证 |
 | VISTA | KVA12123 | Kineta | Pembrolizumab | I期 | 酸性TME与髓系选择 |
 | B7-H3 | Enoblituzumab | MacroGenics | PD-1阻断 | II期 | 配体功能与毒性 |
 | NKG2A | Monalizumab | Innate/AZ | Cetuximab/Durva | II/III期 | NK与T细胞双重解除抑制 |
-| 4-1BB | Acasunlimab | Genmab/BioNTech | PD-L1×4-1BB双抗 | II期 | 肝毒性与条件性激动 |
+| 4-1BB | Acasunlimab | Genmab/BioNTech | PD-L1×4-1BB双抗 | 已停止开发（Genmab，2025-12-29） | 肝毒性与条件性激动 |
 | OX40 | 多项目 | 多家公司 | PD-1阻断 | 早期/重评 | 激动时序与受体占有 |
 | CD73/A2A | Oleclumab/Quemliclustat | AZ/Arcus | ICI/化疗 | II/III期 | 腺苷通路冗余 |
 
+> **使用边界：** LAG-3、TIGIT与4-1BB各行已按2024–2026年公司公告和专业媒体报道更新；其余各行沿用2025.Q2状态，使用前请回到公司公告与ClinicalTrials.gov复核。
+
 > **临床/研究亮点：** **EV-302体现“机制合理+随机验证”。**Enfortumab vedotin递送MMAE造成快速肿瘤杀伤，帕博利珠单抗解除PD-1抑制；随机研究相对铂类化疗的显著生存改善使组合成为实践改变，而不仅是早期缓解率信号。联合后仍须区分ADC皮疹/神经病与免疫性皮炎或神经毒性。
+
+## 02.7 2025下半年—2026年关键进展（截至2026-11-12）
+
+2025年7月至2026年11月，本次检索未见新的PD-1/PD-L1单抗分子在FDA首次获批，变化主要发生在三个方向：一是成熟ICI向围手术期、早期治愈与器官保留场景前移；二是皮下制剂与新适应症同步获批；三是加速批准经确证后转换或收窄。与此同时，TIGIT等“第二检查点”项目在III期大面积受挫。下表按FDA决定日期列出本章相关事件；联合ADC或双抗的方案另见[第4章](04-adc.md)和[第5章](05-bispecific.md)。
+
+### 表2-7：2025下半年—2026年ICI关键事件
+
+**十九项FDA决定与管线事件；数值来自FDA公告、公司新闻稿或专业媒体报道，以最新标签为准**
+
+| 日期 | 事件 | 类型 | 意义/备注 |
+| --- | --- | --- | --- |
+| 2025-05-13 | GSK/iTeos终止TIGIT抗体belrestotug开发及合作 | 管线失败 | GALAXIES Lung-201 PFS未达预设标准，H&N-202 ORR低于阈值；III期Lung-301停止入组 |
+| 2025-09-19 | 皮下帕博利珠单抗Keytruda Qlex（含berahyaluronidase alfa）获批，覆盖静脉Keytruda多数成人实体瘤适应症 | 新剂型 | 一线NSCLC研究中确认ORR 45% vs 42%（皮下 vs 静脉），PFS/OS无明显差异 |
+| 2025-10-02 | Lurbinectedin+阿替利珠单抗用于ES-SCLC一线诱导后维持 | 适应症扩展 | IMforte（n=483）：mPFS 5.4 vs 2.1月（HR 0.54），mOS 13.2 vs 10.6月（HR 0.73） |
+| 2025-10-08 | 西米普利单抗用于手术+放疗后高复发风险皮肤鳞癌辅助治疗 | 适应症扩展 | C-POST（n=415，安慰剂对照）；首个该场景辅助免疫治疗 |
+| 2025-11-21 | 帕博利珠单抗（静脉/皮下）+EV用于不适合顺铂MIBC新辅助+术后辅助 | 适应症扩展 | KEYNOTE-905/EV-303（n=344）：EFS风险降低60%，OS风险降低50%，pCR 57.1% vs 8.6% |
+| 2025-11-25 | 度伐利尤单抗+FLOT用于可切除胃/GEJ腺癌围手术期 | 适应症扩展 | MATTERHORN（n=948）：EFS HR 0.71，OS HR 0.78 |
+| 2025-12-12 | Arcus/Gilead因无效终止STAR-221（domvanalimab+zimberelimab+化疗 vs 纳武利尤单抗+化疗，一线胃/食管癌） | 管线失败 | 中期OS无改善；2026-04-20 NSCLC III期STAR-121亦因无效终止 |
+| 2026-02-10 | 帕博利珠单抗+紫杉醇±贝伐珠单抗用于PD-L1阳性铂耐药卵巢癌（既往1–2线） | 适应症扩展 | KEYNOTE-B96：mPFS 8.3 vs 7.2月（风险降低28%），死亡风险降低24%；首个获批该场景的PD-1抑制剂 |
+| 2026-03-20 | 纳武利尤单抗+AVD用于≥12岁初治III–IV期cHL；复发/难治cHL加速批准转常规 | 适应症扩展/转换 | SWOG S1826：对比BV-AVD的PFS HR 0.42 |
+| 2026-05-15 | 阿替利珠单抗（静脉/皮下）用于膀胱切除后ctDNA分子残留病阳性MIBC辅助 | 适应症扩展 | IMvigor011（n=250，2:1）：DFS HR 0.62；Signatera CDx同步获批 |
+| 2026-05-15 | Regeneron公布fianlimab+cemiplimab一线黑色素瘤III期未达PFS统计学显著 | 管线失败 | 高剂量组mPFS 11.5 vs 6.4月（对比帕博利珠单抗），HR 0.845（p=0.0627） |
+| 2026-05-28 | 度伐利尤单抗+BCG用于BCG初治高危NMIBC | 适应症扩展 | POTOMAC（n=1018）：DFS HR 0.68 |
+| 2026-06-12 | Belzutifan+帕博利珠单抗（静脉/皮下）用于中高危/高危透明细胞RCC术后辅助 | 适应症扩展 | LITESPARK-022（n=1841）：DFS HR 0.72，24个月DFS 80.7% vs 73.7%；HIF-2α见第10章 |
+| 2026-06-24 | 帕博利珠单抗+sacituzumab govitecan用于PD-L1 CPS≥10晚期TNBC一线 | 适应症扩展 | ASCENT-04/KEYNOTE-D19：mPFS 11.2 vs 7.8月（风险降低35%）；ADC细节见第4章 |
+| 2026-07-10 | 帕博利珠单抗+EV扩展至适合顺铂的MIBC围手术期 | 适应症扩展 | KEYNOTE-B15/EV-304（n=808）：EFS风险降低47%，2年EFS 79.4% vs 66.2% |
+| 2026-08-25 | 替雷利珠单抗+zanidatamab+化疗用于HER2阳性胃/GEJ/食管腺癌一线 | 适应症扩展 | HERIZON-GEA-01；HER2双表位抗体部分见第5章 |
+| 2026-10-08 | 阿替利珠单抗（静脉及皮下Hybreza）+氟尿嘧啶类/奥沙利铂用于III期dMMR结肠癌辅助 | 适应症扩展 | ATOMIC：3年DFS 86.3% vs 76.2%（HR约0.50） |
+| 2026-10-16 | 帕博利珠单抗TMB-H实体瘤加速批准转常规，阈值限定≥13 mut/Mb | 转换/标签收窄 | 合并ORR 36%；10至<13 mut/Mb人群疗效未获确证 |
+| 2026-10-19 | 多塔利单抗用于初治II–III期dMMR/MSI-H局部晚期直肠癌 | 加速批准 | AZUR-1（n=154）单臂、不接受放化疗和手术；缓解数值各报道不一，以标签为准 |
+
+最显著的变化是ICI从“晚期挽救”进入“可切除/可治愈”场景。MIBC中，EV+帕博利珠单抗先在不适合顺铂人群（KEYNOTE-905）、再在适合顺铂人群（KEYNOTE-B15）改写以膀胱切除和铂类为核心的标准；胃/GEJ癌MATTERHORN、皮肤鳞癌C-POST、非肌层浸润性膀胱癌（Non-Muscle-Invasive Bladder Cancer，**NMIBC**）POTOMAC分别把PD-(L)1加入围手术期化疗、术后放疗后辅助和BCG灌注。这些研究多以无事件生存（Event-Free Survival，**EFS**）或无病生存（Disease-Free Survival，**DFS**）为主要终点，OS成熟度不一，解读时需区分“延迟复发”与“提高治愈率”。
+
+dMMR/MSI-H正从晚期泛癌种标志物变成早期治疗分层工具。ATOMIC在III期dMMR结肠癌中把阿替利珠单抗加入辅助化疗；AZUR-1则以多塔利单抗单药替代放化疗和手术，以持续临床完全缓解（clinical Complete Response，**cCR**）获得加速批准，把“器官保留”变成监管终点，也要求长期随访确认局部再生长可被挽救性手术控制。IMvigor011则以膀胱切除后循环肿瘤DNA（ctDNA）分子残留病选择MIBC辅助阿替利珠单抗人群，并同步批准Signatera伴随诊断，把液体活检变成ICI辅助治疗的入组门槛。另一方面，TMB-H常规批准把阈值从10提高至≥13 mut/Mb，说明确证性证据不仅能让加速批准“转正”，也能修正生物标志物切点。
+
+给药形式上，Keytruda Qlex获批后，2025-11以来帕博利珠单抗的新适应症均同时覆盖静脉与皮下产品；阿替利珠单抗的IMforte和ATOMIC批准也覆盖皮下Tecentriq Hybreza。皮下制剂正在成为PD-(L)1生命周期管理的默认配置，其价值主要在椅旁时间和医疗资源，而非疗效差异。
+
+新检查点方面，TIGIT成为反面教材：Merck于2024-12因KEYVIBE-003/007达到OS无效标准终止vibostolimab（同时停止LAG-3抗体favezelimab），GSK/iTeos于2025-05终止belrestotug，Roche在2025年将tiragolumab移出管线（SKYSCRAPER-01最终OS、-03、-06等均未达标），Arcus/Gilead的STAR-221与STAR-121分别于2025-12和2026-04因无效终止——主要TIGIT项目均未在III期证明获益。LAG-3方面，Opdualag辅助研究RELATIVITY-098未达RFS主要终点，Regeneron的fianlimab+cemiplimab一线黑色素瘤III期亦未达PFS统计学显著（2026-05），Opdualag仍是唯一获FDA批准的LAG-3方案。研发资源正向PD-(L)1×VEGF双抗和ICI+ADC组合集中——前者首个美国申请（ivonescimab）的PDUFA日期为2026-11-14，结果晚于本库证据截止日，见[第5章](05-bispecific.md)。
+
+> **临床/研究亮点：** **AZUR-1把“免疫治疗替代手术”写进标签。**在初治II–III期dMMR/MSI-H局部晚期直肠癌中，多塔利单抗单药（500 mg每3周，共9周期）且不接受放化疗和手术，即以持续临床完全缓解获得FDA加速批准。其意义在于器官保留和生活质量，但也要求规范的内镜/MRI监测与挽救性手术通路；不同报道的缓解数值不一致，应以FDA标签为准。
 
 ## 主要参考来源
 
@@ -220,7 +265,46 @@ ICI加ADC把靶向递送的细胞毒性与免疫解除抑制连接。恩诺单�
 
 - U.S. Food and Drug Administration. Oncology approval notifications and Drugs@FDA labels. 2025. [FDA](https://www.fda.gov/drugs/resources-information-approved-drugs/oncology-cancerhematologic-malignancies-approval-notifications)
 
+- U.S. Food and Drug Administration. FDA approves pembrolizumab and berahyaluronidase alfa-pmph subcutaneous injection. 2025. [FDA](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-pembrolizumab-and-berahyaluronidase-alfa-pmph-subcutaneous-injection)
+
+- U.S. Food and Drug Administration. FDA approves cemiplimab-rwlc for adjuvant treatment of cutaneous squamous cell carcinoma. 2025. [FDA](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-cemiplimab-rwlc-adjuvant-treatment-cutaneous-squamous-cell-carcinoma)
+
+- CancerNetwork. FDA Approves Lurbinectedin/Atezolizumab Maintenance in ES-SCLC (IMforte). 2025. [CancerNetwork](https://www.cancernetwork.com/view/fda-approves-lurbinectedin-atezolizumab-maintenance-in-es-sclc)
+
+- CURE. FDA Approves Keytruda and Padcev for Muscle-Invasive Bladder Cancer (KEYNOTE-905/EV-303). 2025. [CURE](https://www.curetoday.com/view/fda-approves-keytruda-and-padcev-for-muscle-invasive-bladder-cancer)
+
+- Targeted Oncology. FDA Approves Durvalumab Plus FLOT in Early-Stage Gastric/GEJ Cancers (MATTERHORN). 2025. [Targeted Oncology](https://www.targetedonc.com/view/fda-approves-durvalumab-plus-flot-in-early-stage-gastric-gej-cancers)
+
+- CancerNetwork. FDA Approves Pembrolizumab/Chemo in Platinum-Resistant Gynecologic Indications (KEYNOTE-B96). 2026. [CancerNetwork](https://www.cancernetwork.com/view/fda-approves-pembrolizumab-chemo-in-platinum-resistant-gyn-indications)
+
+- Pharmacy Times. Nivolumab Wins Multiple FDA Approvals for Classical Hodgkin Lymphoma. 2026. [Pharmacy Times](https://www.pharmacytimes.com/view/nivolumab-wins-multiple-fda-approvals-for-classical-hodgkin-lymphoma)
+
+- U.S. Food and Drug Administration. FDA approves durvalumab in combination with Bacillus Calmette-Guerin for high-risk non-muscle invasive bladder cancer. 2026. [FDA](https://www.fda.gov/drugs/resources-information-approved-drugs/fda-approves-durvalumab-combination-bacillus-calmette-guerin-high-risk-non-muscle-invasive-bladder)
+
+- CURE. FDA OKs Trodelvy Alone or With Keytruda for First-Line Triple-Negative Breast Cancer (ASCENT-04/KEYNOTE-D19). 2026. [CURE](https://curetoday.com/view/fda-oks-trodelvy-alone-or-with-keytruda-for-first-line-triple-negative-breast-cancer)
+
+- Merck. FDA Approves KEYTRUDA and KEYTRUDA QLEX, Each With PADCEV, as Treatment Before and After Surgery for Adults With MIBC (KEYNOTE-B15/EV-304). 2026. [Press release](https://www.merck.com/news/fda-approves-keytruda-pembrolizumab-and-keytruda-qlex-pembrolizumab-and-berahyaluronidase-alfa-pmph-each-with-padcev-enfortumab-vedotin-ejfv-as-treatment-before-and-after/)
+
+- U.S. Food and Drug Administration. FDA approves zanidatamab-hrii and tislelizumab-jsgr for HER2-positive gastric, gastroesophageal junction or esophageal adenocarcinoma. 2026. [FDA](https://fda.gov/drugs/resources-information-approved-drugs/fda-approves-zanidatamab-hrii-and-tislelizumab-jsgr-her2-positive-gastric-gastroesophageal-junction)
+
+- OncLive. FDA Approves Atezolizumab Plus Chemo for Stage III dMMR Colon Cancer (ATOMIC). 2026. [OncLive](https://www.onclive.com/view/fda-approves-atezolizumab-plus-chemo-for-stage-iii-dmmr-colon-cancer)
+
+- U.S. Food and Drug Administration. FDA grants traditional approval to pembrolizumab or pembrolizumab and berahyaluronidase alfa-pmph (TMB-H solid tumors). 2026. [FDA](https://fda.gov/drugs/resources-information-approved-drugs/fda-grants-traditional-approval-pembrolizumab-or-pembrolizumab-and-berahyaluronidase-alfa-pmph)
+
+- CancerNetwork. FDA Approves Dostarlimab in Previously Untreated Locally Advanced Rectal Cancer (AZUR-1). 2026. [CancerNetwork](https://www.cancernetwork.com/view/fda-approves-dostarlimab-in-previously-untreated-locally-advanced-rectal-cancer)
+
+- AACR. FDA Approvals in Oncology: July-September 2026（季度回顾系列）. 2026. [AACR](https://www.aacr.org/blog/2026/10/05/fda-approvals-in-oncology-july-september-2026/)
+- Fierce Biotech. Merck drops TIGIT asset and LAG-3 program, discontinuing several phase 3 trials. 2024. [Fierce](https://www.fiercebiotech.com/biotech/merck-drops-tigit-asset-and-lag-3-program-discontinuing-several-phase-3-trials)
+- Targeted Oncology. Belrestotug Program Terminated After Mixed Phase 2 Results in NSCLC. 2025. [Targeted Oncology](https://www.targetedonc.com/view/belrestotug-program-terminated-after-mixed-phase-2-results-in-nsclc)
+- ApexOnco. 5,000 patients later Roche scraps its TIGIT. 2025. [ApexOnco](https://www.oncologypipeline.com/apexonco/node/1473?page=33)
+- Arcus Biosciences. Arcus Provides Update on Phase 3 STAR-221 Study. 2025. [Press release](https://www.businesswire.com/news/home/20251212586271/en)
+- ApexOnco. Another Arcus TIGIT trial flops (STAR-121). 2026. [ApexOnco](https://www.oncologypipeline.com/apexonco/another-arcus-tigit-trial-flops)
+- CancerNetwork. Nivolumab/Relatlimab Does Not Meet RFS End Point in Stage III/IV Melanoma (RELATIVITY-098). 2025. [CancerNetwork](https://www.cancernetwork.com/view/nivolumab-relatlimab-does-not-meet-rfs-end-point-in-stage-iii-iv-melanoma)
+- Regeneron. Regeneron Provides Update on Phase 3 Trial of Fianlimab Combination in First-Line Unresectable or Metastatic Melanoma. 2026. [Press release](https://investor.regeneron.com/news-releases/news-release-details/regeneron-provides-update-phase-3-trial-fianlimab-lag-3)
+- CancerNetwork. FDA Approves Atezolizumab in MIBC Post-Cystectomy With ctDNA MRD (IMvigor011). 2026. [CancerNetwork](https://www.cancernetwork.com/view/fda-approves-atezolizumab-in-mibc-post-cystectomy-with-ctdna-mrd)
+- Targeted Oncology. FDA Approves Adjuvant Belzutifan Plus Pembrolizumab for Kidney Cancer (LITESPARK-022). 2026. [Targeted Oncology](https://www.targetedonc.com/view/fda-approves-adjuvant-belzutifan-plus-pembro-for-kidney-cancer)
+
 
 ---
 
-内容版本：2025.Q2。下次更新建议：2025.Q4，重点复核 FDA 标签、临床阶段和公司交易状态。
+内容版本：2026.Q4（证据截止2026-11-12）。下次更新建议：2027.Q2，重点复核 FDA 标签、临床阶段和公司交易状态。

@@ -29,7 +29,7 @@ OncoAtlas 是一个 Markdown 版癌症治疗前沿知识数据库，面向具有
 | 10 | [肿瘤微环境干预](oncology-database/chapters/10-tumor-microenv.md) | TME的组成与功能；巨噬细胞靶向策略；髓系来源抑制细胞 |
 | 11 | [新抗原与个性化癌症疫苗](oncology-database/chapters/11-neoantigen.md) | 新抗原的生成与识别；个性化疫苗设计流程；临床里程碑与关键数据 |
 | 12 | [主要药企管线与战略布局](oncology-database/chapters/12-pipelines.md) | 免疫肿瘤学巨头；ADC专注公司；CAR-T与细胞治疗格局 |
-| 13 | [FDA政策与监管框架](oncology-database/chapters/13-fda-policy.md) | 肿瘤药物加速审批机制；加速批准争议与改革；生物标志物与伴随诊断政策 |
+| 13 | [FDA政策与监管框架](oncology-database/chapters/13-fda-policy.md) | 肿瘤药物加速审批机制；加速批准争议与改革；生物标志物与伴随诊断政策；2025–2026年FDA批准回顾 |
 | 14 | [前沿探索路线](oncology-database/chapters/14-emerging-routes.md) | 人工智能与药物发现；合成致死与DDR靶点；表观遗传学靶向治疗 |
 | 15 | [市场格局与投资动态](oncology-database/chapters/15-market-landscape.md) | 全球市场规模与增长；重大并购交易；授权合作热点 |
 
@@ -143,9 +143,20 @@ oncology-database/
 
 更新原则：所有新增临床数据必须写明来源和数据截止时间；不确定信息使用 `[待核实]` 标注；涉及 FDA 批准、适应症、价格、公司交易和临床阶段的信息，应优先回到 FDA、ClinicalTrials.gov、公司公告和同行评议论文复核。
 
+## 更新日志
+
+### 2026.Q4（证据截止 2026-11-12）
+
+- **全部16章**：版本头尾更新为 2026.Q4；各章末新增“2025下半年—2026年关键进展（截至2026-11-12）”小节（事件表 + 分析段落 + 新增参考来源），并就地更新原有表格中的批准状态、临床阶段和公司归属。
+- **监管（第13章）**：补全2025年下半年批准决定，新增“13.6 2026年FDA肿瘤学批准回顾”和“13.7 政策进展”（CNPV优先审评券、CRL公开、CAR-T REMS取消、加速批准转换与撤回、伴随诊断与LDT）。
+- **代表性里程碑**：首个获批PROTAC（vepdegestrant，2026-05）与首个CELMoD（iberdomide，2026-08）；首个RAS(ON)抑制剂daraxonrasib获批胰腺癌（2026-08）；个体化mRNA疫苗intismeran autogene III期INTerpath-001达主要终点；全球首个实体瘤CAR-T（satri-cel，中国NMPA 2026-06）；HER2-TKD、ESR1突变、menin等新靶点药物集中获批；ADC全面前移至早期乳腺癌、一线TNBC和围手术期膀胱癌。
+- **产业（第12、15章）**：新增2025年畅销肿瘤药Top 20、2025–2026年并购（含体内CAR-T与放射性药物整合）和授权交易（PD-(L)1×VEGF双抗浪潮），更新IRA与定价政策。
+- **数据表**：FDA批准记录扩充至137条，药物80条、管线87条、公司72条、术语170条；修正了既有错误（如POINT Biopharma收购方应为Eli Lilly、Lunsumio占位日期、表1-1与表9-1截断）。
+- **核实说明**：本次更新依据FDA公告、公司新闻稿、会议报道与同行评议文献；未能完全核实的信息以 `[待核实]` 标注，建议下次更新（2027.Q2）优先复核。
+
 ## 数据口径与责任边界
 
-- 内容版本：2025.Q2；部分监管和市场章节含 2025 全年回顾补充。
+- 内容版本：2026.Q4（证据截止 2026-11-12）；各章新增“2025下半年—2026年关键进展”小节，数据表同步更新至 2026-11-12。
 - 药物、临床试验、FDA 批准和公司信息优先参考 FDA、ClinicalTrials.gov、公司公告、NEJM、Nature、Lancet、JCO 等来源。
 - 本项目仅供教育和研究使用，不构成医疗建议、投资建议或监管意见。
 
